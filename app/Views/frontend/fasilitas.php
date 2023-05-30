@@ -10,11 +10,11 @@
                         <div class="col-lg-3">
                             <div class="instructor__content">
                                 <div class="instructor__image">
-                                    <img src="<?= base_url($value['image_url']) ?>" style="cursor:zoom-in" onclick="document.getElementById('modal01').style.display='block'">
-                                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                                    <img src="<?= base_url('show-image-landingpage/' . $value['image_url']) ?>" style="cursor:zoom-in" onclick="document.getElementById('modal-image-<?= $k ?>').style.display='block'">
+                                    <div id="modal-image-<?= $k ?>" class="w3-modal" onclick="this.style.display='none'">
                                         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
                                         <div class="w3-modal-content w3-animate-zoom">
-                                            <img src="<?= base_url($value['image_detail_url']) ?>" style="width:100%">
+                                            <img src="<?= base_url('show-image-landingpage/' . $value['image_detail_url']) ?>" style="width:100%">
                                         </div>
                                     </div>
                                 </div>

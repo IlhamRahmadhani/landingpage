@@ -2,6 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\Banner;
+use App\Models\Biaya;
+use App\Models\Fasilitas;
+use App\Models\JenisProgram;
+use App\Models\JenisProgramDetail;
+use App\Models\Jurusan;
+use App\Models\KontakKami;
+use App\Models\Setting;
+use App\Models\TipePerkuliahan;
+use App\Models\User;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
@@ -53,6 +63,31 @@ abstract class BaseController extends Controller
 
         // Preload any models, libraries, etc, here.
 
-        // E.g.: $this->session = \Config\Services::session();
+        $this->db = \Config\Database::connect();
+
+
+        $this->setSettings();
+
+        $this->mBanner = new Banner();
+        $this->mBiaya = new Biaya();
+        $this->mFasilitas = new Fasilitas();
+        $this->mJenisProgram = new JenisProgram();
+        $this->mJenisProgramDetail = new JenisProgramDetail();
+        $this->mJurusan = new Jurusan();
+        $this->mKontakKami = new KontakKami();
+        $this->mSetting = new Setting();
+        $this->mTipePerkuliahan = new TipePerkuliahan();
+        $this->mUser = new User();
+    }
+
+    private function setSettings()
+    {
+        $settings = $this->db->table('settings')->get()->getResultArray();
+        $content = [];
+        foreach ($settings as $k => $v) {
+            $content[$v['key']] = $v['value'];
+        }
+
+        defined('SETTINGS') or define('SETTINGS', $content);
     }
 }

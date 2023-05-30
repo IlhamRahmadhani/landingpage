@@ -14,10 +14,10 @@ class Banner extends Model
 
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['judul', 'image_url', 'created_at', 'updated_at'];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
@@ -39,4 +39,55 @@ class Banner extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function setRules($type = 'insert')
+    {
+        $rules = [];
+        $rules += [
+            'judul' => [
+                'label' => 'Judul', 'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} tidak boleh kosong',
+                ],
+            ],
+        ];
+        $isImageAvail = isset($_FILES['image_url']);
+        $isImageAvail = $isImageAvail ? !empty($_FILES['image_url']['tmp_name']) : false;
+        $imageValid = $isImageAvail ? $_FILES['image_url'] : null;
+
+        if ($type == 'insert' && !$isImageAvail) {
+            $rules += [
+                'image_url' => [
+                    'label' => 'Banner', 'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ],
+                ],
+            ];
+        }
+        if ($imageValid) {
+            if (empty(strstr($imageValid['type'], 'image/'))) {
+                $rules += [
+                    'file_type' => [
+                        'label' => 'Banner', 'rules' => 'required',
+                        'errors' => [
+                            'required' => '{field} harus berformat JPG atau PNG',
+                        ],
+                    ],
+                ];
+            }
+            if ($imageValid['size'] > sizeImage()['size']) {
+                $rules += [
+                    'file_size' => [
+                        'label' => 'Banner', 'rules' => 'required',
+                        'errors' => [
+                            'required' => '{field} maksimal berukuran '. sizeImage()['description'] ,
+                        ],
+                    ],
+                ];
+            }
+        }
+
+        return $rules;
+    }
 }

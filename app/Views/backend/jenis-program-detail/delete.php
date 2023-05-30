@@ -1,0 +1,1 @@
+<form method="POST" id="form-delete" action="<?= base_url('landingpage/jenis-program-detail/delete/' . $jenisProgramDetail['id']) ?>"></form>

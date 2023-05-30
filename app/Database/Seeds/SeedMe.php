@@ -14,6 +14,5 @@ class SeedMe extends Seeder
         $this->call('TipePerkuliahan');
         $this->call('Banner');
         $this->call('Fasilitas');
-        $this->call('SkemaPembayaran');
     }
 }   

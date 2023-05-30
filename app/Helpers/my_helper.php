@@ -71,15 +71,19 @@ if (!function_exists('alert')) {
                 break;
         }
 
-        $html = "";
-        $html .= '<div class="alert ' . $alertClass . '">';
-        $html .= '<div class="alert-icon">';
-        $html .= '<i class="material-icons">' . $alertIcon . '</i>';
-        $html .= '</div>';
-        $html .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close">';
-        $html .= '<span aria-hidden="true"><i class="material-icons">clear</i></span>';
+        if (is_array($message)) {
+            $message = "<div class=\"list-error\"><ul><li>" . implode("</li><li>", $message) . "</li></ul></div>";
+        }
+        $html = '<div class="alert ' . $alertClass . ' alert-dismissible text-white fade show mb-0" role="alert">';
+        $html .= '<span class="alert-icon align-middle">';
+        $html .= '<span class="material-icons text-md">';
+        $html .= $alertIcon;
+        $html .= '</span>';
+        $html .= '</span>';
+        $html .= '<span class="alert-text">' . $message . '</span>';
+        $html .= '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">';
+        $html .= '<span aria-hidden="true">&times;</span>';
         $html .= '</button>';
-        $html .= $message;
         $html .= '</div>';
 
         return $html;
@@ -92,5 +96,20 @@ if (!function_exists('dateFormatConverter')) {
         $myDateTime = DateTime::createFromFormat($inputFormat, $inputDate);
         $newDateString = $myDateTime->format($outputFormat);
         return $newDateString;
+    }
+}
+
+if (!function_exists('sizeMB')) {
+    function sizeMB(int $number)
+    {
+        return ['size' => $number * 1048576, 'description' => "$number MB"];
+    }
+}
+
+// belum sempat buatnya.
+if (!function_exists('sizeImage')) {
+    function sizeImage()
+    {
+        return sizeMB(2);
     }
 }
