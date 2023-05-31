@@ -1,5 +1,5 @@
 <form method="POST" id="form-create" action="<?= base_url('landingpage/jenis-program-detail/create/' . $idJenisProgram) ?>">
-    <input type="hidden" name="id_jenis_program">
+    <input type="hidden" name="id_jenis_program" value="<?= $idJenis ?>">
     <div class="my-3">
         <label class="form-label">Image</label>
         <input type="file" class="form-control" name="image_url">

@@ -1,14 +1,6 @@
 <?= $this->extend('frontend\layout') ?>
 <?= $this->section('content') ?>
-<!-- 
-<section class="hero">
-    <div class="hero-content">
-        <h1 class="hero-heading">Experience<br>The Real Things</h1>
-    </div>
-</section> -->
 <style>
-    /*! CSS Used from: http://landingpage-smart.test/frontend/assets/css/bootstrap.min.css */
-
     .carousel-caption-custom {
         position: absolute;
         width: 100%;
@@ -27,10 +19,8 @@
         margin-left: 91px;
         font-size: 50px;
         line-height: 1.1;
-
     }
 </style>
-
 <?php if (!empty($banner)) : ?>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -38,7 +28,7 @@
                 <?php
                 $active = ($k == 0) ? 'active' : '';
                 ?>
-                <div class="carousel-item <?= $active ?>">
+                <div class="carousel-item <?= $active ?>" data-bs-interval="10000">
                     <div class="carousel-title"></div>
                     <img src="<?= base_url('show-image-landingpage/' . $value['image_url']) ?>" class="d-block w-100" alt="...">
                     <div class="carousel-caption-custom">
@@ -87,16 +77,18 @@
                                         <div class="col-md-3">
 
 
-                                            <a href="<?= base_url("detail-program-seleksi/$pilihan[id_pilihan]") ?>">
+                                            <a href="<?= $pilihan['content'] == '' ? 'javascript:;' : base_url("detail-program-seleksi/$pilihan[id_pilihan]") ?>">
 
                                                 <div class="item__inner">
                                                     <div class="icon">
                                                         <img src="<?= base_url('show-image-landingpage/' . $pilihan['image_url']) ?>" alt="image">
 
                                                     </div>
-                                                    <div class="react-content">
-                                                        <a href="<?= base_url("detail-program-seleksi/$pilihan[id_pilihan]") ?>" class="r__link"><?= $pilihan['keterangan'] ?></a>
-                                                    </div>
+                                                    <?php if ($pilihan['keterangan'] != '') : ?>
+                                                        <div class="react-content">
+                                                            <a href="javascript:;" class="r__link"><?= $pilihan['keterangan'] ?></a>
+                                                        </div>
+                                                    <?php endif ?>
                                                 </div>
 
                                             </a>

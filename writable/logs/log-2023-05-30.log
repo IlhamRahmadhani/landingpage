@@ -1,0 +1,899 @@
+CRITICAL - 2023-05-30 03:31:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:31:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:32:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:32:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:32:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:32:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:32:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('14', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(79): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('15', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('15')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('15', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('15')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:57 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417637_4cbd6b0dd0a87a5810c4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417638_a64286e030a0446b0586')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:33:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417638_b624f0235f0512a03cea')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:34:19 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417659_fac0809979d972210234')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:34:29 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417669_3c75b687ed1f15965f52')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:35:15 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417715_cd86ab162f6a4995b2c1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:35:16 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417716_f882bfc58c99c2389660')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:36:56 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685417816_32b4d27719fe6a58af6e')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:52:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685418778_23964dff355adae61e93')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:53:14 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685418794_e83261502a1fa4a17ad1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 04:26:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('16', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(140): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 04:26:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('16', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(140): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 04:26:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('16', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(140): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 04:26:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('16', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(140): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 04:26:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('16', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(140): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:04:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:04:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:09:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:09:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:09:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:09:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('17', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(124): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:17:57 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:01 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:08 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:09 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:14 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:19 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:18:20 --> Undefined variable: imageUrl
+in APPPATH\Controllers\Backend\BannersController.php on line 165.
+ 1 APPPATH\Controllers\Backend\BannersController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imageUrl', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 165, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:19:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685427570_1b259c12308b7014d793')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:24:37 --> Allowed fields must be specified for model: "App\Models\JenisProgram"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JenisProgram')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Backend\JenisProgramDetailController.php(87): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:24:40 --> Allowed fields must be specified for model: "App\Models\JenisProgram"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JenisProgram')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Backend\JenisProgramDetailController.php(87): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:24:42 --> Allowed fields must be specified for model: "App\Models\JenisProgram"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JenisProgram')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Backend\JenisProgramDetailController.php(87): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:40:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Backend\FasilitasController.php on line 196.
+ 1 APPPATH\Controllers\Backend\FasilitasController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\FasilitasController.php', 196, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->update('7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:40:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Backend\FasilitasController.php on line 196.
+ 1 APPPATH\Controllers\Backend\FasilitasController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\FasilitasController.php', 196, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->update('7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 06:40:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Backend\FasilitasController.php on line 196.
+ 1 APPPATH\Controllers\Backend\FasilitasController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\FasilitasController.php', 196, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->update('7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:01:19 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in D:\Ilham\BTI-Projects\landingpage-smart\app\Controllers\Backend\BannersController.php on line 22
+in SYSTEMPATH\Validation\Validation.php on line 478.
+ 1 APPPATH\Controllers\Backend\BannersController.php(22): CodeIgniter\Validation\Validation->setRules(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:01:20 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in D:\Ilham\BTI-Projects\landingpage-smart\app\Controllers\Backend\BannersController.php on line 22
+in SYSTEMPATH\Validation\Validation.php on line 478.
+ 1 APPPATH\Controllers\Backend\BannersController.php(22): CodeIgniter\Validation\Validation->setRules(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:11 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:13 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:13 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:13 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:14 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:03:14 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\BannersController.php on line 77.
+ 1 APPPATH\Controllers\Backend\BannersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:13:49 --> Undefined variable: isImageAvail
+in APPPATH\Controllers\Backend\JenisProgramDetailController.php on line 77.
+ 1 APPPATH\Controllers\Backend\JenisProgramDetailController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: isImageAvail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\JenisProgramDetailController.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:21:08 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685431268_deda7b7de77a388c7f0e')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:21:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685431270_5a85e1acafb8d0699d42')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:21:12 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685431272_ce14cb55dc797fcfc55f')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:30:12 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Backend\FasilitasController.php on line 14.
+ 1 APPPATH\Controllers\Backend\FasilitasController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\FasilitasController.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432012_a23f9281935b090ae41f')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432015_b80d417d443d20391408')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432015_8e0cd778d3f8ada1483c')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432015_3303780b19bcc039cb76')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432015_3bb67731353ef4aca7f4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:38 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432018_d812a4c56d9d53845a1f')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:38 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432018_7931baeb7cb6cd522dfa')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:39 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432019_8bc52523703385760f02')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:33:39 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432019_d86a568391db5517b34d')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:34:07 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432047_e289f5effea9e13fdb71')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:34:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432066_310eca00d9f4ad38380c')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:34:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432067_9de74f577729ff5f18e4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:34:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432067_7a9f3e21048cabfa8f89')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:34:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\FasilitasController.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685432067_e64a49f745696b35ab8b')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 07:56:38 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Backend\AuthController.php(16): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:11:53 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Backend\AuthController.php(50): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:34:07 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Backend\AuthController.php on line 32.
+ 1 APPPATH\Controllers\Backend\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\AuthController.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:34:10 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Backend\AuthController.php on line 32.
+ 1 APPPATH\Controllers\Backend\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\AuthController.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:34:12 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Backend\AuthController.php on line 32.
+ 1 APPPATH\Controllers\Backend\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\AuthController.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:34:25 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Backend\AuthController.php on line 32.
+ 1 APPPATH\Controllers\Backend\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\AuthController.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:35:21 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Backend\AuthController.php on line 32.
+ 1 APPPATH\Controllers\Backend\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\AuthController.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:37:53 --> Cannot use object of type App\Entities\UserEntity as array
+in APPPATH\Controllers\Backend\AuthController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:52:01 --> Call to undefined method App\Controllers\Backend\DashboardController::setSettings()
+in APPPATH\Controllers\BaseController.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:53:32 --> Undefined variable: db
+in APPPATH\Controllers\BaseController.php on line 66.
+ 1 APPPATH\Controllers\BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\BaseController.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 09:53:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(69): App\Controllers\BaseController->setSettings()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 09:53:47 --> mysqli_sql_exception: Table 'landingpage_smart.setting' doesn't exist in D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ilham\BTI-Projects\landingpage-smart\app\Controllers\BaseController.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ilham\BTI-Projects\landingpage-smart\app\Controllers\BaseController.php(69): App\Controllers\BaseController->setSettings()
+#6 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+#8 D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ilham\BTI-Projects\landingpage-smart\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-30 09:53:47 --> Table 'landingpage_smart.setting' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Setting`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Setting`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Setting`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Setting`', [], false)
+ 5 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\BaseController.php(69): App\Controllers\BaseController->setSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 09:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

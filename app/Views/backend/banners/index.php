@@ -15,44 +15,55 @@
         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3 mb-4">
             <h5 class="text-white text-capitalize ps-3">Banners</h5>
         </div>
-        <div class="alert alert-info text-white" role="alert">
-            <strong>Menu Banners</strong> digunakan untuk menambah, merubah serta menghapus gambar berjalan yang terdapat di halaman landing page.
-        </div>
-
-        <div class="card h-100">
-            <div class="card-header pb-2 p-3">
-                <div class="row">
-                    <div class="col text-end">
-                        <button class="btn btn-outline-primary btn-sm mb-0" btnCreate>Tambah Banner</button>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col text-end">
+                <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnCreate type="button">
+                    <span class="btn-inner--icon"><i class="material-icons fs-5">add</i></span>
+                    <span class="btn-inner--text">Tambah Banner</span>
+                </button>
             </div>
+        </div>
+        <div class="row mt-3">
+            <?php if (count($banners) > 0) : ?>
+                <?php foreach ($banners as $k => $value) : ?>
+                    <!--ADD CLASSES HERE d-flex align-items-stretch-->
+                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <a class="d-block blur-shadow-image" href="<?= base_url("show-image-landingpage/$value[image_url]") ?>" data-lightbox="<?= $value['id'] ?>">
+                                    <img src="<?= base_url("show-image-landingpage/$value[image_url]") ?>" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                                </a>
+                                <div class="colored-shadow" style="background-image: url(&quot;<?= base_url("show-image-landingpage/$value[image_url]") ?>&quot;);"></div>
+                            </div>
+                            <div class="card-body py-2">
+                                <h5 class="card-title py-4"><?= html_entity_decode($value['judul']) ?></h5>
+                            </div>
 
-            <div class="card-body p-3 pb-0">
-                <div class="row">
-                    <?php if (count($banners) > 0) : ?>
-                        <?php foreach ($banners as $k => $value) : ?>
-                            <!--ADD CLASSES HERE d-flex align-items-stretch-->
-                            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                                <div class="card w-100">
-                                    <a href="<?= base_url("show-image-landingpage/$value[image_url]") ?>" data-lightbox="<?= $value['id'] ?>"><img class="img-backend" src="<?= base_url("show-image-landingpage/$value[image_url]") ?>" alt="Card Image"></a>
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title py-4"><?= html_entity_decode($value['judul']) ?></h5>
-                                        <div class="d-flex justify-content-center gap-2 mt-auto">
-                                            <a href="javascript:;" btnUpdate="<?= $value['id'] ?>" class="btnUpdate btn btn-warning mt-auto align-self-start">Update</a>
-                                            <a href="javascript:;" btnDelete="<?= $value['id'] ?>" class="btnDelete btn btn-danger mt-auto align-self-start">Delete</a>
-                                        </div>
-                                    </div>
+                            <hr class="dark horizontal my-0">
+                            <div class="card-footer d-flex flex-column pb-0">
+                                <div class="d-flex justify-content-center mt-auto gap-2">
+                                    <button class="btn btn-icon btn-3 btn-sm btn-outline-warning" btnUpdate="<?= $value['id'] ?>" type="button">
+                                        <span class="btn-inner--icon"><i class="material-icons fs-6">mode_edit</i></span>
+                                        <span class="btn-inner--text">Ubah</span>
+                                    </button>
+                                    <button class="btn btn-icon btn-3 btn-sm btn-outline-danger" btnDelete="<?= $value['id'] ?>" type="button">
+                                        <span class="btn-inner--icon"><i class="material-icons fs-6">delete</i></span>
+                                        <span class="btn-inner--text">Hapus</span>
+                                    </button>
                                 </div>
                             </div>
-                        <?php endforeach ?>
-                    <?php else : ?>
-                        <div class="">
-                            <h5 class="text-uppercase text-secondary text-xl text-center font-weight-bolder opacity-7 py-4 border rounded">Belum ada data</h5>
                         </div>
-                    <?php endif ?>
+                    </div>
+                <?php endforeach ?>
+            <?php else : ?>
+                <div class="col">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="text-uppercase text-secondary text-xl text-center font-weight-bolder opacity-7 py-4 rounded">Belum ada data</h5>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            <?php endif ?>
         </div>
     </div>
 </div>

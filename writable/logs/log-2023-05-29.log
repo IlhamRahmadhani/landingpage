@@ -1,0 +1,483 @@
+CRITICAL - 2023-05-29 01:46:18 --> Too few arguments to function App\Controllers\Backend\BiayaController::create(), 0 passed in D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Backend\BiayaController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BiayaController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BiayaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 01:46:23 --> Too few arguments to function App\Controllers\Backend\BiayaController::create(), 0 passed in D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Backend\BiayaController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BiayaController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BiayaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 01:47:02 --> Too few arguments to function App\Controllers\Backend\BiayaController::create(), 0 passed in D:\Ilham\BTI-Projects\landingpage-smart\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Backend\BiayaController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BiayaController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BiayaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:14:51 --> Undefined variable: value
+in APPPATH\Views\backend\kontak-kami\index.php on line 18.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(13): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:15:10 --> Undefined variable: value
+in APPPATH\Views\backend\kontak-kami\index.php on line 18.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(13): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:17:16 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(34): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(13): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:24:34 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(3): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(13): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:29:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:29:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:29:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:30:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:31:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:49:34 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685335774_5243179815b8077bddfa')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 04:56:11 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685336171_3f18145809ce7898d10d')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 05:19:24 --> Undefined variable: detail
+in APPPATH\Views\backend\fasilitas\index.php on line 24.
+ 1 APPPATH\Views\backend\fasilitas\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: detail', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\fasilitas\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\fasilitas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/fasilitas/index', [], true)
+ 5 APPPATH\Controllers\Backend\FasilitasController.php(14): view('backend/fasilitas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 05:26:52 --> Undefined variable: kontakKami
+in APPPATH\Views\backend\settings\index.php on line 20.
+ 1 APPPATH\Views\backend\settings\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kontakKami', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php', 20, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/settings/index', [], true)
+ 5 APPPATH\Controllers\Backend\SettingController.php(11): view('backend/settings/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 05:27:07 --> Undefined variable: kontakKami
+in APPPATH\Views\backend\settings\index.php on line 18.
+ 1 APPPATH\Views\backend\settings\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kontakKami', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php', 18, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/settings/index', [], true)
+ 5 APPPATH\Controllers\Backend\SettingController.php(11): view('backend/settings/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:26:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(Object(App\Entities\KontakKamiEntity), null)
+ 4 APPPATH\Controllers\Backend\KontakKamiController.php(28): CodeIgniter\Model->update(Object(App\Entities\KontakKamiEntity))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:26:35 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 APPPATH\Controllers\Backend\KontakKamiController.php(28): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:26:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 APPPATH\Controllers\Backend\KontakKamiController.php(28): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:27:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 APPPATH\Controllers\Backend\KontakKamiController.php(28): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:27:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:27:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:27:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:35:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:35:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\KontakKamiEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('3', Object(App\Entities\KontakKamiEntity))
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\KontakKamiEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:49:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\kontak-kami\index.php on line 18.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(14): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:49:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\kontak-kami\index.php on line 48.
+ 1 APPPATH\Views\backend\kontak-kami\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\kontak-kami\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/kontak-kami/index', [], true)
+ 5 APPPATH\Controllers\Backend\KontakKamiController.php(14): view('backend/kontak-kami/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\KontakKamiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KontakKamiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 07:16:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('11', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(78): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 07:16:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\JenisProgramDetailEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('11', Object(App\Entities\JenisProgramDetailEntity))
+ 5 APPPATH\Controllers\Backend\JenisProgramDetailController.php(78): CodeIgniter\BaseModel->save(Object(App\Entities\JenisProgramDetailEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 07:53:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('12', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('12')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 07:53:26 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('12', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('12')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 07:53:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\BannerEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('12', Object(App\Entities\BannerEntity))
+ 5 APPPATH\Controllers\Backend\BannersController.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('12')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:11:22 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685347882_06c7b70c9d75cf3c5d41')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:14:18 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685348058_d88754b71b51d33268ab')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:14:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685348066_5ee30205f642749ed59d')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:15:08 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\JenisProgramDetailController.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685348108_c7ab489ebd994232c37b')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\JenisProgramDetailController->create('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\JenisProgramDetailController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:36:31 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685349391_e39351646472affe8d7b')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:36:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Backend\BannersController.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\Ilham\\BTI-Projects\\landingpage-smart\\writable\\uploads/', '1685349393_d003f6a1d3e29b9e63ff')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 08:40:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], Object(App\Entities\FasilitasEntity))
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('6', Object(App\Entities\FasilitasEntity))
+ 5 APPPATH\Controllers\Backend\FasilitasController.php(106): CodeIgniter\BaseModel->save(Object(App\Entities\FasilitasEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\FasilitasController->update('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\FasilitasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 09:13:36 --> Allowed fields must be specified for model: "App\Models\Setting"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Setting')
+ 2 SYSTEMPATH\BaseModel.php(919): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Backend\SettingController.php(21): CodeIgniter\Model->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\SettingController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SettingController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 09:13:52 --> Allowed fields must be specified for model: "App\Models\Setting"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Setting')
+ 2 SYSTEMPATH\BaseModel.php(919): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Backend\SettingController.php(21): CodeIgniter\Model->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\SettingController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SettingController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 09:15:00 --> Undefined index: telephone
+in APPPATH\Views\backend\settings\index.php on line 26.
+ 1 APPPATH\Views\backend\settings\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: telephone', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\settings\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/settings/index', [], true)
+ 5 APPPATH\Controllers\Backend\SettingController.php(11): view('backend/settings/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\SettingController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\SettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

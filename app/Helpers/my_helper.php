@@ -113,3 +113,63 @@ if (!function_exists('sizeImage')) {
         return sizeMB(2);
     }
 }
+
+if (!function_exists('showMenu')) {
+    function showMenu()
+    {
+        $menus = [
+            [
+                'title' => 'Dashboard',
+                'icon' => 'dashboard',
+                'link' => base_url('landingpage')
+            ],
+            [
+                'title' => 'Banners',
+                'icon' => 'collections',
+                'link' => base_url('landingpage/banners')
+            ],
+            [
+                'title' => 'Jenis Program',
+                'icon' => 'content_copy',
+                'link' => base_url('landingpage/jenis-program')
+            ],
+            [
+                'title' => 'Fasilitas',
+                'icon' => 'inventory_2',
+                'link' => base_url('landingpage/fasilitas')
+            ],
+            [
+                'title' => 'Biaya',
+                'icon' => 'monetization_on',
+                'link' => base_url('landingpage/biaya')
+            ],
+            [
+                'title' => 'Kontak Kami',
+                'icon' => 'contacts',
+                'link' => base_url('landingpage/kontak-kami')
+            ],
+            [
+                'title' => 'Pengaturan',
+                'icon' => 'settings',
+                'link' => base_url('landingpage/settings')
+            ],
+        ];
+
+        $html = '';
+        foreach ($menus as $k => $menu) {
+            $currentUri = service('uri');
+            $menuUri = new \CodeIgniter\HTTP\URI($menu['link']);
+
+            $active = ($currentUri->getSegment(2) == $menuUri->getSegment(2)) ? 'active bg-gradient-secondary' : '';
+            $html .= '<li class="nav-item">';
+            $html .= '<a class="nav-link text-white ' . $active . '" href="' . $menu['link'] . '">';
+            $html .= '<div class="text-white text-center me-2 d-flex align-items-center justify-content-center">';
+            $html .= '<i class="material-icons opacity-10">' . $menu['icon'] . '</i>';
+            $html .= '</div>';
+            $html .= '<span class="nav-link-text ms-1">' . $menu['title'] . '</span>';
+            $html .= '</a>';
+            $html .= '</li>';
+        }
+        return $html;
+    }
+}

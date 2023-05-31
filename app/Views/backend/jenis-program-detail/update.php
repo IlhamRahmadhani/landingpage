@@ -1,5 +1,6 @@
 <form method="POST" id="form-update" action="<?= base_url('landingpage/jenis-program-detail/update/' . $jenisProgramDetail['id']) ?>">
     <input type="hidden" name="id" value="<?= $jenisProgramDetail['id'] ?>">
+    <input type="hidden" name="id_jenis_program" value="<?= $jenisProgramDetail['id_jenis_program'] ?>">
     <div class="my-3">
         <label class="form-label">Image</label>
         <input type="file" class="form-control" name="image_url">

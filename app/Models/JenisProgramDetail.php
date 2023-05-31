@@ -42,6 +42,16 @@ class JenisProgramDetail extends Model
     public function setRules($type = 'insert')
     {
         $rules = [];
+
+        $rules += [
+            'id_jenis_program' => [
+                'label' => 'Jenis Program', 'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} tidak boleh kosong',
+                ],
+            ],
+        ];
+
         $isImageAvail = isset($_FILES['image_url']);
         $isImageAvail = $isImageAvail ? !empty($_FILES['image_url']['tmp_name']) : false;
         $imageValid = $isImageAvail ? $_FILES['image_url'] : null;
@@ -78,22 +88,22 @@ class JenisProgramDetail extends Model
                 ];
             }
         }
-        $rules += [
-            'keterangan' => [
-                'label' => 'Keterangan', 'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} tidak boleh kosong',
-                ],
-            ],
-        ];
-        $rules += [
-            'content' => [
-                'label' => 'Konten', 'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} tidak boleh kosong',
-                ],
-            ],
-        ];
+        // $rules += [
+        //     'keterangan' => [
+        //         'label' => 'Keterangan', 'rules' => 'required',
+        //         'errors' => [
+        //             'required' => '{field} tidak boleh kosong',
+        //         ],
+        //     ],
+        // ];
+        // $rules += [
+        //     'content' => [
+        //         'label' => 'Konten', 'rules' => 'required',
+        //         'errors' => [
+        //             'required' => '{field} tidak boleh kosong',
+        //         ],
+        //     ],
+        // ];
 
 
         return $rules;

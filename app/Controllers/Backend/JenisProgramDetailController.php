@@ -17,6 +17,7 @@ class JenisProgramDetailController extends BaseController
             $validation->setRules($rules);
             $errors = [];
             $response = [];
+
             if ($validation->withRequest($this->request)->run()) {
                 $image = $this->request->getFile('image_url');
                 $imageUrl = '';
@@ -25,11 +26,12 @@ class JenisProgramDetailController extends BaseController
                     $image->move(WRITEPATH . 'uploads', $imageUrl);
                 }
                 $post = [
-                    'id_jenis_program' => $idJenisProgram,
+                    'id_jenis_program' => $this->request->getPost('id_jenis_program'),
                     'keterangan' => $this->request->getPost('keterangan'),
                     'image_url' => $imageUrl,
                     'content' => htmlentities($this->request->getPost('content') ?? ''),
                 ];
+
                 if ($this->mJenisProgramDetail->insert($post)) {
                     $response = [
                         'success' => true,
@@ -68,9 +70,9 @@ class JenisProgramDetailController extends BaseController
             $errors = [];
             $response = [];
             if ($validation->withRequest($this->request)->run()) {
+                $id = $this->request->getPost('id');
                 $jenisProgramDetail = $this->mJenisProgramDetail->where('id', $id)->first();
                 $post = [
-                    'id_jenis_program' => $jenisProgramDetail->id_jenis_program,
                     'keterangan' => $this->request->getPost('keterangan'),
                     'content' => htmlentities($this->request->getPost('content') ?? ''),
                 ];

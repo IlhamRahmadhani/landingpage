@@ -5,6 +5,7 @@ namespace App\Controllers\Frontend;
 use App\Repositories\BiayaRepository;
 use App\Repositories\JenisProgramDetailRepository;
 use App\Controllers\BaseController;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class FrontendController extends BaseController
 {
@@ -20,6 +21,9 @@ class FrontendController extends BaseController
     public function detailProgramSeleksi($id)
     {
         $detail = model('JenisProgramDetail')->asArray()->find($id);
+        if (!$detail) {
+            throw new PageNotFoundException();
+        }
         $content = compact('detail');
         return view('frontend/detail_program_seleksi', $content);
     }

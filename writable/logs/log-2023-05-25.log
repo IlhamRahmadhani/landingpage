@@ -1,0 +1,356 @@
+CRITICAL - 2023-05-25 01:21:11 --> Undefined index: program
+in APPPATH\Repositories\BiayaRepository.php on line 53.
+ 1 APPPATH\Repositories\BiayaRepository.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: program', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Repositories\\BiayaRepository.php', 53, [...])
+ 2 APPPATH\Controllers\FrontendController.php(38): App\Repositories\BiayaRepository->getSkemaPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:27:54 --> Undefined index: content
+in APPPATH\Views\frontend\biaya.php on line 19.
+ 1 APPPATH\Views\frontend\biaya.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: content', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/biaya', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(37): view('frontend/biaya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:28:13 --> Undefined index: content
+in APPPATH\Views\frontend\biaya.php on line 19.
+ 1 APPPATH\Views\frontend\biaya.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: content', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/biaya', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(37): view('frontend/biaya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:28:33 --> Trying to get property 'content' of non-object
+in APPPATH\Controllers\FrontendController.php on line 37.
+ 1 APPPATH\Controllers\FrontendController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'content\' of non-object', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\FrontendController.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:28:43 --> Undefined index: content
+in APPPATH\Controllers\FrontendController.php on line 37.
+ 1 APPPATH\Controllers\FrontendController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: content', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\FrontendController.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:30:54 --> Undefined index: content
+in APPPATH\Views\frontend\biaya.php on line 20.
+ 1 APPPATH\Views\frontend\biaya.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: content', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\biaya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/biaya', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(38): view('frontend/biaya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->biaya()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:51:14 --> Call to undefined function setting()
+in APPPATH\Views\frontend\layout.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:51:40 --> Call to a member function get() on null
+in APPPATH\Views\frontend\layout.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:52:03 --> Call to undefined function setting()
+in APPPATH\Views\frontend\layout.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:54:04 --> Call to a member function get() on null
+in APPPATH\Views\frontend\layout.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:54:10 --> Call to a member function get() on null
+in APPPATH\Views\frontend\layout.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:54:39 --> Undefined variable: telephone
+in APPPATH\Views\frontend\layout.php on line 4.
+ 1 APPPATH\Views\frontend\layout.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: telephone', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\layout.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 01:57:34 --> Undefined variable: telephone
+in APPPATH\Views\frontend\layout.php on line 4.
+ 1 APPPATH\Views\frontend\layout.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: telephone', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\layout.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('frontend\\layout', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(43): view('frontend/kontak_kami')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:01:05 --> Undefined index: content
+in APPPATH\Views\frontend\kontak_kami.php on line 4.
+ 1 APPPATH\Views\frontend\kontak_kami.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: content', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\kontak_kami.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\frontend\\kontak_kami.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 5 APPPATH\Controllers\FrontendController.php(45): view('frontend/kontak_kami', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:01:21 --> Cannot use object of type App\Entities\KontakKamiEntity as array
+in APPPATH\Views\frontend\kontak_kami.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/kontak_kami', [], true)
+ 4 APPPATH\Controllers\FrontendController.php(45): view('frontend/kontak_kami', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->kontakKami()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:02:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Frontend/FrontendController::kontakKami"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Frontend/FrontendController::kontakKami')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kontak-kami')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kontak-kami')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:02:50 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Frontend/FrontendController::kontakKami"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Frontend/FrontendController::kontakKami')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kontak-kami')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kontak-kami')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:03:15 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Frontend/FrontendController::kontakKami"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Frontend/FrontendController::kontakKami')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kontak-kami')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kontak-kami')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:03:19 --> Class 'App\Controllers\Frontend\BaseController' not found
+in APPPATH\Controllers\Frontend\FrontendController.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Frontend\\FrontendController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\FrontendController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\FrontendController')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Frontend\\FrontendController')
+ 6 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Frontend\\FrontendController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:46:47 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Backend\BannersController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\BannersController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\BannersController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Backend\\BannersController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Backend\\BannersController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:48:11 --> Array to string conversion
+in APPPATH\Controllers\Backend\BannersController.php on line 13.
+ 1 APPPATH\Controllers\Backend\BannersController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 13, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 03:48:43 --> Array to string conversion
+in APPPATH\Controllers\Backend\BannersController.php on line 13.
+ 1 APPPATH\Controllers\Backend\BannersController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Controllers\\Backend\\BannersController.php', 13, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 08:02:44 --> Call to undefined method App\Controllers\Backend\BannersController::response()
+in APPPATH\Controllers\Backend\BannersController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:16:13 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1703.
+ 1 SYSTEMPATH\BaseModel.php(1703): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert(Object(App\Entities\BannerEntity), false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\BannerEntity), false)
+ 5 APPPATH\Controllers\Backend\BannersController.php(28): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:20:13 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Backend\BannersController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:20:36 --> Allowed fields must be specified for model: "App\Models\Banner"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Banner')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\BannerEntity), false)
+ 5 APPPATH\Controllers\Backend\BannersController.php(39): CodeIgniter\BaseModel->save(Object(App\Entities\BannerEntity))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:21:07 --> Call to undefined function App\Controllers\Backend\now()
+in APPPATH\Controllers\Backend\BannersController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:25:08 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\FileController:showImage/$1"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\FileController:showImage/$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:25:21 --> A dynamic controller is not allowed for security reasons. Route handler: "\App\Controllers\FileController:showImage\$1"
+in SYSTEMPATH\Router\Router.php on line 480.
+ 1 SYSTEMPATH\Router\Router.php(480): CodeIgniter\Router\Exceptions\RouterException::forDynamicController('\\App\\Controllers\\FileController:showImage\\$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:25:24 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\FileController:showImage/$1"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\FileController:showImage/$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:26:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\FileController:showImage/$1"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\FileController:showImage/$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:26:51 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\FileController:showImage/$1"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\FileController:showImage/$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:27:04 --> A dynamic controller is not allowed for security reasons. Route handler: "\App\Controllers\FileController:showImage\$1"
+in SYSTEMPATH\Router\Router.php on line 480.
+ 1 SYSTEMPATH\Router\Router.php(480): CodeIgniter\Router\Exceptions\RouterException::forDynamicController('\\App\\Controllers\\FileController:showImage\\$1')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('show-image/1685006436_a6210146c16016e0db12')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('show-image/1685006436_a6210146c16016e0db12')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:38:42 --> Undefined variable: banner
+in APPPATH\Views\backend\banners\update.php on line 1.
+ 1 APPPATH\Views\backend\banners\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: banner', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/banners/update', [], true)
+ 5 APPPATH\Controllers\Backend\BannersController.php(65): view('backend/banners/update')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:38:45 --> Undefined variable: banner
+in APPPATH\Views\backend\banners\update.php on line 1.
+ 1 APPPATH\Views\backend\banners\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: banner', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/banners/update', [], true)
+ 5 APPPATH\Controllers\Backend\BannersController.php(65): view('backend/banners/update')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:38:47 --> Undefined variable: banner
+in APPPATH\Views\backend\banners\update.php on line 1.
+ 1 APPPATH\Views\backend\banners\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: banner', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/banners/update', [], true)
+ 5 APPPATH\Controllers\Backend\BannersController.php(65): view('backend/banners/update')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:39:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\banners\update.php on line 1.
+ 1 APPPATH\Views\backend\banners\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Ilham\\BTI-Projects\\landingpage-smart\\app\\Views\\backend\\banners\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/banners/update', [], true)
+ 5 APPPATH\Controllers\Backend\BannersController.php(67): view('backend/banners/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 09:43:45 --> Cannot use object of type App\Entities\BannerEntity as array
+in APPPATH\Views\backend\banners\update.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/banners/update', [], true)
+ 4 APPPATH\Controllers\Backend\BannersController.php(67): view('backend/banners/update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\BannersController->update('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\BannersController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

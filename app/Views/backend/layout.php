@@ -44,62 +44,7 @@
     <hr class="horizontal light mt-0 mb-2">
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary" href="<?= base_url('landingpage') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">dashboard</i>
-            </div>
-            <span class="nav-link-text ms-1">Dashboard</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/banners') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">collections</i>
-            </div>
-            <span class="nav-link-text ms-1">Banners</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/jenis-program') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">content_copy</i>
-            </div>
-            <span class="nav-link-text ms-1">Jenis Program</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/fasilitas') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">inventory_2</i>
-            </div>
-            <span class="nav-link-text ms-1">Fasilitas</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/biaya') ?>">
-            <div class="text-white text-center me-2 d-flex align-item s-center justify-content-center">
-              <i class="material-icons opacity-10">monetization_on</i>
-            </div>
-            <span class="nav-link-text ms-1">Biaya</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/kontak-kami') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">contacts</i>
-            </div>
-            <span class="nav-link-text ms-1">Kontak Kami</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="<?= base_url('landingpage/settings') ?>">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">settings</i>
-            </div>
-            <span class="nav-link-text ms-1">Pengaturan</span>
-          </a>
-        </li>
+        <?= showMenu() ?>
         <li class="nav-item">
           <a class="nav-link text-white" href="javascript:;" onclick="document.getElementById('fLogout').submit()">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">

@@ -5,10 +5,6 @@
         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3 mb-4">
             <h5 class="text-white text-capitalize ps-3">Jenis Program</h6>
         </div>
-
-        <div class="alert alert-info text-white" role="alert">
-            <strong>Menu Jenis Program</strong> Berisi penjelasan blablabal.
-        </div>
         <div class="nav-wrapper position-relative end-0">
             <ul class="nav nav-pills nav-fill p-1 mb-2" role="tablist">
                 <?php foreach ($jenisProgram as $k => $jenis) : ?>
@@ -23,52 +19,62 @@
         <div class="tab-content" id="myTabContent">
             <?php foreach ($jenisProgram as $k => $jenis) : ?>
                 <div class="tab-pane fade  <?= ($k == 0) ? 'show active' : '' ?>" id="tab-<?= $jenis['id'] ?>" role="tabpanel" aria-labelledby="tab-control-<?= $jenis['id'] ?>">
-                    <div class="card h-100">
-                        <div class="card-header pb-2 p-3">
-                            <div class="row">
-                                <div class="col text-end">
-                                    <button class="btn btn-outline-primary btn-sm mb-0" btnCreatePs="<?= $jenis['id'] ?>">Tambah Program Seleksi</button>
+                    <div class="row mt-3">
+                        <div class="col text-end">
+                            <button class="btn btn-icon btn-3 btn-sm btn-outline-primary" btnCreatePs="<?= $jenis['id'] ?>" type="button">
+                                <span class="btn-inner--icon"><i class="material-icons fs-6">add</i></span>
+                                <span class="btn-inner--text">Tambah Program Seleksi</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <?php  ?>
+                    <div class="row mt-3">
+                        <?php if (isset($jenisProgramDetail[$jenis['program']])) : ?>
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="table-responsive">
+                                        <table class="table table-flush" id="datatable-<?= $jenis['id'] ?>">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Image</th>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keterangan</th>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Konten</th>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <?php foreach ($jenisProgramDetail[$jenis['program']] as $k => $detail) : ?>
+                                                    <tr>
+                                                        <td class="w-20">
+                                                            <div>
+                                                                <a href="<?= base_url('show-image-landingpage/' . $detail['image_url']) ?>" data-lightbox="<?= $detail['id_pilihan'] ?>"><img class="img-backend" src="<?= base_url('show-image-landingpage/' . $detail['image_url'])  ?>" alt=""></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class=""><?= $detail['keterangan'] ?></td>
+                                                        <td class="w-1"><a class="btn btn-sm btn-outline-info" target="_blank" href="<?= base_url('detail-program-seleksi/' . $detail['id_pilihan']) ?>">Lihat konten</a></td>
+                                                        <td class="w-1">
+                                                            <button btnUpdatePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-outline-warning"><i class="material-icons opacity-10 fs-6">mode_edit</i> Ubah</button>
+                                                            <button btnDeletePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-outline-danger"><i class="material-icons opacity-10 fs-6">delete</i> Hapus</button>
+                                                        </td>
+                                                    </tr>
+                                                <?php endforeach ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <?php  ?>
-                        <?php if (isset($jenisProgramDetail[$jenis['program']])) : ?>
-                            <div class="table-responsive">
-                                <table class="table table-flush" id="datatable-<?= $jenis['id'] ?>">
-                                    <thead class="thead-light">
-                                        <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Image</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keterangan</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Konten</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php foreach ($jenisProgramDetail[$jenis['program']] as $k => $detail) : ?>
-                                            <tr>
-                                                <td class="w-20">
-                                                    <div>
-                                                        <a href="<?= base_url('show-image-landingpage/' . $detail['image_url']) ?>" data-lightbox="<?= $detail['id_pilihan'] ?>"><img class="img-backend" src="<?= base_url('show-image-landingpage/' . $detail['image_url'])  ?>" alt=""></a>
-                                                    </div>
-                                                </td>
-                                                <td class=""><?= $detail['keterangan'] ?></td>
-                                                <td class="w-1"><a class="btn btn-sm btn-info" target="_blank" href="<?= base_url('detail-program-seleksi/' . $detail['id_pilihan']) ?>">Lihat konten</a></td>
-                                                <td class="w-1">
-                                                    <button btnUpdatePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-warning">Ubah</button>
-                                                    <button btnDeletePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-danger">Hapus</button>
-                                                </td>
-                                            </tr>
-                                        <?php endforeach ?>
-                                    </tbody>
-                                </table>
-                            </div>
                         <?php else : ?>
-                            <div class="">
-                                <h5 class="text-uppercase text-secondary text-xl text-center font-weight-bolder opacity-7 py-4 border rounded">Belum ada data</h5>
+                            <div class="col">
+                                <div class="card border">
+                                    <div class="card-body">
+                                        <h5 class="text-uppercase text-secondary text-xl text-center font-weight-bolder opacity-7 py-4 rounded">Belum ada data</h5>
+                                    </div>
+                                </div>
                             </div>
                         <?php endif ?>
                     </div>
+
                 </div>
             <?php endforeach ?>
         </div>

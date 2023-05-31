@@ -18,8 +18,10 @@
     $('#summernote-judul').summernote({
         toolbar: [
             ['style', ['bold', 'italic', 'underline', 'clear']],
+            ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
             ['font', ['strikethrough', 'superscript', 'subscript']],
             ['color', ['color']],
+            ['view', ['codeview']]
 
         ],
         tabsize: 2,

@@ -1,7 +1,9 @@
 (function ($) {
   $(function () {
-    $("[bLogin]").on("click", function (e) {
-      let $form = $("[fLogin]");
+    $("[fLogin]").on("submit", function (e) {
+      let $form = $(this);
+      e.preventDefault();
+
       login($form).then((response) => {
         window.location.href = response.redirect;
       });
