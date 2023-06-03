@@ -17,8 +17,6 @@
         height: 550px;
         margin: 0;
         margin-left: 91px;
-        font-size: 50px;
-        line-height: 1.1;
     }
 </style>
 <?php if (!empty($banner)) : ?>
