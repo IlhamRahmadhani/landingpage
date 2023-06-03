@@ -288,3 +288,53 @@ $(document).ready(function () {
     wrapAround: true,
   });
 });
+
+function isElementExist(selector) {
+  let element = document.querySelector(selector);
+  return typeof element !== undefined && element !== null;
+}
+
+function cleanSelector(selector) {
+  return selector.replace(/#/g, "");
+}
+
+function initTinymce(selector, content = null, addedOptions = {}) {
+  let _cleanSelector = cleanSelector(selector);
+  if (tinymce.get(_cleanSelector)) {
+    tinymce.get(_cleanSelector).destroy();
+  }
+
+  let options = {
+    selector: selector,
+    width: "100%",
+    height: 300,
+    promotion: false,
+    content_css: '/frontend/assets/css/bootstrap.min.css, style.css',
+    plugins: "advlist link lists table fullscreen code",
+    menubar: "edit view insert format table",
+    init_instance_callback(editor) {
+      if (content !== null) {
+        editor.setContent(content);
+        tinymce.triggerSave();
+      }
+    },
+    setup: function (editor) {
+      editor.on("change", function () {
+        tinymce.triggerSave();
+      });
+    },
+  };
+
+  Object.assign(options, addedOptions);
+  tinymce.init(options);
+
+  document.addEventListener("focusin", (e) => {
+    if (
+      e.target.closest(
+        ".tox-tinymce-aux, .moxman-window, .tam-assetmanager-root"
+      ) !== null
+    ) {
+      e.stopImmediatePropagation();
+    }
+  });
+}
