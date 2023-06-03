@@ -46,6 +46,17 @@
     $(document).ready(function() {
         <?php foreach ($biaya as $k => $value) : ?>
             $('#summernote-biaya-<?= $value['id'] ?>').summernote({
+                toolbar: [
+                    ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    ['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['height', ['height']],
+                    ['table', ['table']],
+                    ['insert', ['link']],
+                    ['view', ['codeview']]
+                ],
                 tabsize: 2,
                 height: 500,
                 callbacks: {

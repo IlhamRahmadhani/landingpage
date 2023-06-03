@@ -5,11 +5,11 @@
         <input type="text" class="form-control input-text" name="judul" value="<?= $fasilitas['judul'] ?>">
     </div>
     <div class="my-3">
-        <label class="control-label d-block">Gambar Depan</label>
+        <label class="control-label d-block">Thumbnail</label>
         <input type="file" class="form-control" name="image_url">
     </div>
     <div class="my-3">
-        <label class="control-label d-block">Gambar Modal</label>
+        <label class="control-label d-block">Preview</label>
         <input type="file" class="form-control" name="image_detail_url">
     </div>
 </form>

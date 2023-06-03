@@ -3,8 +3,6 @@
 namespace App\Repositories;
 
 use App\Repositories\BaseRepository;
-use Ozdemir\Datatables\Datatables;
-use Ozdemir\Datatables\DB\Codeigniter4Adapter;
 
 class JenisProgramDetailRepository extends BaseRepository
 {
@@ -31,17 +29,5 @@ class JenisProgramDetailRepository extends BaseRepository
       $data[$v['program']][] = $v;
     }
     return $data;
-  }
-
-  public function getDt()
-  {
-    $db      = \Config\Database::connect();
-    $builder = $db->table('jenis_program_detail');
-    $builder->select('id, image_url, keterangan, content');
-    $datatables = new Datatables(new Codeigniter4Adapter);
-    $datatables->query($builder);
-
-
-    return $datatables->generate()->toJson();
   }
 }

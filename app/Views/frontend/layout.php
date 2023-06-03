@@ -45,6 +45,7 @@ $settings = SETTINGS;
     <?php endif ?>
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
+        <div class="react__loader_logo"><img src="<?= base_url('frontend/assets/images/preload.png') ?>" alt="Preload"></div>
     </div>
     <header id="react-header" class="react-header">
         <div class="topbar-area style1">

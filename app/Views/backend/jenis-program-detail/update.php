@@ -26,11 +26,13 @@
         toolbar: [
             ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
             ['font', ['strikethrough', 'superscript', 'subscript']],
+            ['fontsize', ['fontsize']],
             ['color', ['color']],
             ['para', ['ul', 'ol', 'paragraph']],
+            ['height', ['height']],
             ['table', ['table']],
-            ['view', ['fullscreen', 'codeview']]
-
+            ['insert', ['link']],
+            ['view', ['codeview']]
         ],
         tabsize: 2,
         height: 250,

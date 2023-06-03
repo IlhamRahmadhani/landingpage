@@ -4,11 +4,11 @@
         <input type="text" class="form-control input-text" name="judul">
     </div>
     <div class="my-3">
-        <label class="form-label">Gambar Depan</label>
+        <label class="form-label">Thumbnail</label>
         <input type="file" class="form-control" name="image_url">
     </div>
     <div class="my-3">
-        <label class="form-label">Gambar Belakang</label>
+        <label class="form-label">Preview</label>
         <input type="file" class="form-control" name="image_detail_url">
     </div>
 </form>

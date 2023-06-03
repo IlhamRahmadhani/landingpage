@@ -24,10 +24,15 @@
     $(document).ready(function() {
         $('#summernote-content').summernote({
             toolbar: [
-                ['style', ['bold', 'italic', 'underline', 'clear']],
+                ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
                 ['font', ['strikethrough', 'superscript', 'subscript']],
+                ['fontsize', ['fontsize']],
                 ['color', ['color']],
-                ['view', ['fullscreen', 'codeview']]
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['height', ['height']],
+                ['table', ['table']],
+                ['insert', ['link']],
+                ['view', ['codeview']]
             ],
             tabsize: 2,
             height: 500,
@@ -39,6 +44,11 @@
                         .val($("#summernote-content")
                             .summernote('code'));
                 },
+                onInit: function() {
+                    $("button[data-toggle='dropdown']").each(function(index) {
+                        $(this).removeAttr("data-toggle").attr("data-bs-toggle", "dropdown");
+                    });
+                }
             }
         })
         $("#summernote-content").summernote("code", `<?= html_entity_decode($kontakKami['content'] ?? '') ?>`);

@@ -1,12 +1,12 @@
 <form method="POST" id="form-create" action="<?= base_url('landingpage/jenis-program-detail/create/' . $idJenisProgram) ?>">
-    <input type="hidden" name="id_jenis_program" value="<?= $idJenis ?>">
+    <input type="hidden" name="id_jenis_program" value="<?= $idJenisProgram ?>">
     <div class="my-3">
         <label class="form-label">Image</label>
         <input type="file" class="form-control" name="image_url">
     </div>
     <div class="my-3">
         <label class="form-label">Keterangan</label>
-        <input type="text" class="form-control input-text" name="keterangan" >
+        <input type="text" class="form-control input-text" name="keterangan">
 
     </div>
 
@@ -24,11 +24,13 @@
         toolbar: [
             ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
             ['font', ['strikethrough', 'superscript', 'subscript']],
+            ['fontsize', ['fontsize']],
             ['color', ['color']],
             ['para', ['ul', 'ol', 'paragraph']],
+            ['height', ['height']],
             ['table', ['table']],
-            ['view', ['fullscreen', 'codeview']]
-
+            ['insert', ['link']],
+            ['view', ['codeview']]
         ],
         tabsize: 2,
         height: 250,
