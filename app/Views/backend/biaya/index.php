@@ -28,8 +28,7 @@
                     </div>
                     <div class="mt-3">
                         <form method="POST" formSave="<?= $value['id'] ?>" action="<?= base_url('landingpage/biaya/save/' . $value['id']) ?>">
-                            <input type="hidden" name="content" value="<?= $value['content'] ?>">
-                            <div id="summernote-biaya-<?= $value['id'] ?>" class="summernote"></div>
+                            <textarea id="content-<?= $value['id'] ?>" name="content"></textarea>
                         </form>
                     </div>
                 </div>
@@ -45,37 +44,7 @@
 <script>
     $(document).ready(function() {
         <?php foreach ($biaya as $k => $value) : ?>
-            $('#summernote-biaya-<?= $value['id'] ?>').summernote({
-                toolbar: [
-                    ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
-                    ['font', ['strikethrough', 'superscript', 'subscript']],
-                    ['fontsize', ['fontsize']],
-                    ['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['height', ['height']],
-                    ['table', ['table']],
-                    ['insert', ['link']],
-                    ['view', ['codeview']]
-                ],
-                tabsize: 2,
-                height: 500,
-                callbacks: {
-                    onBlur: function() {
-                        $('#summernote-biaya-<?= $value['id'] ?>')
-                            .closest('form')
-                            .find('[name="content"]')
-                            .val($("#summernote-biaya-<?= $value['id'] ?>")
-                                .summernote('code'));
-                    },
-                    onInit: function() {
-                        $("button[data-toggle='dropdown']").each(function(index) {
-                            $(this).removeAttr("data-toggle").attr("data-bs-toggle", "dropdown");
-                        });
-                    }
-                }
-            })
-            $("#summernote-biaya-<?= $value['id'] ?>").summernote("code", `<?= html_entity_decode($value['content']) ?>`);
-
+            initTinymce("#content-<?= $value['id'] ?>", `<?= html_entity_decode($value['content']) ?>`, {height: 500})
         <?php endforeach ?>
 
         $('[btnSave]').on('click', function(e) {

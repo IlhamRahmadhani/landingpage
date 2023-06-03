@@ -23,11 +23,11 @@
                 </button>
             </div>
         </div>
-        <div class="row mt-3">
+        <div class="row mt-5">
             <?php if (count($banners) > 0) : ?>
                 <?php foreach ($banners as $k => $value) : ?>
                     <!--ADD CLASSES HERE d-flex align-items-stretch-->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                    <div class="col-lg-6 mb-3 <?= !in_array($k, [0, 1]) ? 'mt-5' : '' ?> d-flex align-items-stretch">
                         <div class="card">
                             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                 <a class="d-block blur-shadow-image" href="<?= base_url("show-image-landingpage/$value[image_url]") ?>" data-lightbox="<?= $value['id'] ?>">
@@ -79,6 +79,7 @@
                 'create',
                 '<?= base_url('landingpage/banners/create') ?>',
                 'Tambah Banner',
+                {size: MODAL_SIZE.LARGE}
             )
         });
         $('[btnUpdate]').on('click', function(e) {
@@ -86,6 +87,7 @@
                 'update',
                 '<?= base_url('landingpage/banners/update') ?>' + '/' + $(this).attr('btnUpdate'),
                 'Ubah Banner',
+                {size: MODAL_SIZE.LARGE}
             )
         });
         $('[btnDelete]').on('click', function(e) {
@@ -93,6 +95,7 @@
                 'delete',
                 '<?= base_url('landingpage/banners/delete') ?>' + '/' + $(this).attr('btnDelete'),
                 'Hapus Banner',
+                {size: MODAL_SIZE.LARGE}
             )
         });
     })

@@ -12,8 +12,7 @@
         </div>
         <div class="mt-3">
             <form method="POST" formSave action="<?= base_url('landingpage/kontak-kami/save') ?>">
-                <input type="hidden" name="content" value="<?= $kontakKami['content'] ?? '' ?>">
-                <div id="summernote-content" class="summernote"></div>
+                <textarea name="content" id="content"></textarea>
             </form>
         </div>
     </div>
@@ -22,40 +21,13 @@
 <?= $this->section('js') ?>
 <script>
     $(document).ready(function() {
-        $('#summernote-content').summernote({
-            toolbar: [
-                ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
-                ['font', ['strikethrough', 'superscript', 'subscript']],
-                ['fontsize', ['fontsize']],
-                ['color', ['color']],
-                ['para', ['ul', 'ol', 'paragraph']],
-                ['height', ['height']],
-                ['table', ['table']],
-                ['insert', ['link']],
-                ['view', ['codeview']]
-            ],
-            tabsize: 2,
-            height: 500,
-            callbacks: {
-                onBlur: function() {
-                    $('#summernote-content')
-                        .closest('form')
-                        .find('[name="content"]')
-                        .val($("#summernote-content")
-                            .summernote('code'));
-                },
-                onInit: function() {
-                    $("button[data-toggle='dropdown']").each(function(index) {
-                        $(this).removeAttr("data-toggle").attr("data-bs-toggle", "dropdown");
-                    });
-                }
-            }
+        initTinymce("#content", `<?= html_entity_decode($kontakKami['content']) ?>`, {
+            height: 600
         })
-        $("#summernote-content").summernote("code", `<?= html_entity_decode($kontakKami['content'] ?? '') ?>`);
         $('[btnSave]').on('click', function(e) {
             const $form = $('[formSave]');
             ajax($form.attr('action'), $form.attr('method'), (new FormData($form[0])));
         });
-    })
+    });
 </script>
 <?php $this->endSection() ?>

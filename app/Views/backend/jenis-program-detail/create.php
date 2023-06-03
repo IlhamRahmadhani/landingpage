@@ -7,42 +7,16 @@
     <div class="my-3">
         <label class="form-label">Keterangan</label>
         <input type="text" class="form-control input-text" name="keterangan">
-
     </div>
 
     <div class="form-group label-floating mb-4">
         <label class="control-label">Konten</label>
-        <input type="hidden" name="content">
         <div class="input-group input-group-dynamic">
-            <div id="summernote-content" class="summernote"></div>
+            <textarea id="content" name="content" class="form-control"></textarea>
         </div>
     </div>
 
 </form>
 <script>
-    $('#summernote-content').summernote({
-        toolbar: [
-            ['style', ['style', 'bold', 'italic', 'underline', 'clear']],
-            ['font', ['strikethrough', 'superscript', 'subscript']],
-            ['fontsize', ['fontsize']],
-            ['color', ['color']],
-            ['para', ['ul', 'ol', 'paragraph']],
-            ['height', ['height']],
-            ['table', ['table']],
-            ['insert', ['link']],
-            ['view', ['codeview']]
-        ],
-        tabsize: 2,
-        height: 250,
-        callbacks: {
-            onBlur: function() {
-                $("[name='content']").val($("#summernote-content").summernote('code'));
-            },
-            onInit: function() {
-                $("button[data-toggle='dropdown']").each(function(index) {
-                    $(this).removeAttr("data-toggle").attr("data-bs-toggle", "dropdown");
-                });
-            }
-        }
-    });
+    initTinymce('#content');
 </script>
