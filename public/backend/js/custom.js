@@ -267,7 +267,8 @@ function initTinymce(selector, content = null, addedOptions = {}) {
     width: "100%",
     height: 300,
     promotion: false,
-    content_css: "/frontend/assets/css/bootstrap.min.css, style.css",
+    content_css: "/frontend/assets/css/bootstrap.min.css, /frontend/style.css",
+    content_style: "body {padding: 10px}",
     plugins: "advlist link lists table fullscreen code",
     menubar: "edit view insert format table",
     init_instance_callback(editor) {

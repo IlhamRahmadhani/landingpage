@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers;
 
 class FileController extends BaseController
@@ -8,7 +9,7 @@ class FileController extends BaseController
         try {
             $image = file_get_contents(WRITEPATH . 'uploads/' . $name);
         } catch (\Throwable $th) {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+            $image = file_get_contents(FCPATH . 'global/' . 'no-image.png');
         }
 
         $mimeType = 'image/jpg';
