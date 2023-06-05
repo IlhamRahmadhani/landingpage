@@ -14,6 +14,15 @@ class FasilitasController extends BaseController
         return view('backend/fasilitas/index', $content);
     }
 
+    public function loadContent()
+    {
+        $fasilitas = model("Fasilitas")->asArray()->findAll();
+        $content = compact('fasilitas');
+        $html = htmlentities(view('backend/fasilitas/content', $content));
+        $response = ['html' => $html];
+        return $this->response->setJSON($response);
+    }
+
     public function create()
     {
         if ($this->request->is('post')) {

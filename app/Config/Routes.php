@@ -46,6 +46,7 @@ $routes->get('/landingpage/fasilitas', 'Backend\FasilitasController::index', ['f
 $routes->get('/landingpage/biaya', 'Backend\BiayaController::index', ['filter' => 'auth']);
 $routes->get('/landingpage/kontak-kami', 'Backend\KontakKamiController::index', ['filter' => 'auth']);
 
+$routes->get('/landingpage/banners/load-content', 'Backend\BannersController::loadContent', ['filter' => 'auth']);
 $routes->get('/landingpage/banners/create', 'Backend\BannersController::create', ['filter' => 'auth']);
 $routes->get('/landingpage/banners/update/(:any)', 'Backend\BannersController::update/$1', ['filter' => 'auth']);
 $routes->get('/landingpage/banners/delete/(:any)', 'Backend\BannersController::delete/$1', ['filter' => 'auth']);
@@ -53,6 +54,7 @@ $routes->post('/landingpage/banners/create', 'Backend\BannersController::create'
 $routes->post('/landingpage/banners/update/(:any)', 'Backend\BannersController::update/$1', ['filter' => 'auth']);
 $routes->post('/landingpage/banners/delete/(:any)', 'Backend\BannersController::delete/$1', ['filter' => 'auth']);
 
+$routes->get('/landingpage/jenis-program-detail/load-content/(:any)', 'Backend\JenisProgramDetailController::loadContent/$1', ['filter' => 'auth']);
 $routes->get('/landingpage/jenis-program-detail/create/(:any)', 'Backend\JenisProgramDetailController::create/$1', ['filter' => 'auth']);
 $routes->get('/landingpage/jenis-program-detail/update/(:any)', 'Backend\JenisProgramDetailController::update/$1', ['filter' => 'auth']);
 $routes->get('/landingpage/jenis-program-detail/delete/(:any)', 'Backend\JenisProgramDetailController::delete/$1', ['filter' => 'auth']);
@@ -60,6 +62,7 @@ $routes->post('/landingpage/jenis-program-detail/create/(:any)', 'Backend\JenisP
 $routes->post('/landingpage/jenis-program-detail/update/(:any)', 'Backend\JenisProgramDetailController::update/$1', ['filter' => 'auth']);
 $routes->post('/landingpage/jenis-program-detail/delete/(:any)', 'Backend\JenisProgramDetailController::delete/$1', ['filter' => 'auth']);
 
+$routes->get('/landingpage/fasilitas/load-content', 'Backend\FasilitasController::loadContent', ['filter' => 'auth']);
 $routes->get('/landingpage/fasilitas/create', 'Backend\FasilitasController::create', ['filter' => 'auth']);
 $routes->get('/landingpage/fasilitas/update/(:any)', 'Backend\FasilitasController::update/$1', ['filter' => 'auth']);
 $routes->get('/landingpage/fasilitas/delete/(:any)', 'Backend\FasilitasController::delete/$1', ['filter' => 'auth']);

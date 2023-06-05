@@ -16,5 +16,4 @@ class JenisProgramController extends BaseController
         $content = compact('jenisProgram', 'jenisProgramDetail');
         return view('backend/jenis-program/index', $content);
     }
-
 }

@@ -24,7 +24,7 @@
         initTinymce("#content", `<?= html_entity_decode($kontakKami['content']) ?>`, {
             height: 600
         })
-        $('[btnSave]').on('click', function(e) {
+        $(document).on('click', '[btnSave]', function(e) {
             const $form = $('[formSave]');
             ajax($form.attr('action'), $form.attr('method'), (new FormData($form[0])));
         });

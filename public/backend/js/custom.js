@@ -31,7 +31,6 @@ function abortAjaxCrud() {
     });
   }
 }
-
 function showModal(options = {}, element = "#modal-default") {
   let $modal = $(element);
   let $bSubmit = $modal.find("#button-submit");
@@ -40,9 +39,7 @@ function showModal(options = {}, element = "#modal-default") {
   let $dialog = $modal.find(".modal-dialog");
   let $body = $modal.find("#modal-body");
   let $alertMessage = $("#alert-message");
-
   $alertMessage.html("");
-
   // unbind all click events;
   $bClose.unbind("click");
   $bSubmit.unbind("click");
@@ -50,34 +47,27 @@ function showModal(options = {}, element = "#modal-default") {
     $bClose.click();
     abortAjaxCrud();
   };
-
   $bClose.on("click", function (e) {
     abortAjaxCrud();
   });
-
   // disable submit button while loading content
   $bSubmit.attr("disabled", true);
-
   $bSubmit.addClass("d-none");
   if (options.submitButton !== undefined && options.submitButton !== false) {
     $bSubmit.removeClass("d-none");
     $bSubmit.text(options.submitButton);
   }
   let bSubmitText = $bSubmit.text();
-
   if (options.title !== undefined) $title.text(options.title);
-
   $.each(Object.keys(MODAL_SIZE), function (i, v) {
     $dialog.removeClass(MODAL_SIZE[v]);
   });
-
   if (options.size !== undefined) {
     $dialog.addClass(options.size);
   }
   $body.html($("#loading-spin").html());
   $alertMessage.html("");
   $modal.modal("show");
-
   if (options.src !== undefined) {
     ajax(options.src, "GET", null).then((data) => {
       if (data.length > 0) {
@@ -85,7 +75,6 @@ function showModal(options = {}, element = "#modal-default") {
       }
       $body.html(data);
       $bSubmit.attr("disabled", false);
-
       $bSubmit.click(() => {
         let form = $body.find("form")[0];
         let formData = new FormData(form);
@@ -99,7 +88,6 @@ function showModal(options = {}, element = "#modal-default") {
               if (response.alert !== undefined) {
                 $alertMessage.html(response.alert);
               }
-
               if (!response.success) {
                 showToast(TOAST_TYPE.ERROR, response.message);
                 if (response.content != []) {
@@ -108,7 +96,7 @@ function showModal(options = {}, element = "#modal-default") {
               } else {
                 showToast(TOAST_TYPE.SUCCESS, response.message);
               }
-              options.onSubmit($modal, response);
+              options.onSubmit($modal, response, options);
             },
             function (error) {}
           )
@@ -146,7 +134,6 @@ function ajax(url, method, formData = null) {
       objAjax.processData = false;
       objAjax.contentType = false;
     }
-
     if (window.xhrCrud === undefined) {
       window.xhrCrud = [];
     }
@@ -155,7 +142,7 @@ function ajax(url, method, formData = null) {
 }
 function scriptInputEffect() {
   return `<script>
-  var inputs = document.querySelectorAll("input");
+  var inputs = document.querySelectorAll(".modal.show input");
   for (var i = 0; i < inputs.length; i++) {
     inputs[i].addEventListener(
       "focus",
@@ -183,7 +170,7 @@ function scriptInputEffect() {
     );
   }
   // Ripple Effect
-  var ripples = document.querySelectorAll(".btn");
+  var ripples = document.querySelectorAll(".modal.show .btn");
   for (var i = 0; i < ripples.length; i++) {
     ripples[i].addEventListener(
       "click",
@@ -199,7 +186,9 @@ function scriptInputEffect() {
         rippleDiv.style.top = e.offsetY - rippleDiv.offsetHeight / 2 + "px";
         rippleDiv.classList.add("ripple");
         setTimeout(function () {
-          rippleDiv.parentElement.removeChild(rippleDiv);
+          if (rippleDiv) {
+            rippleDiv.parentElement.removeChild(rippleDiv);
+          }
         }, 600);
       },
       false
@@ -209,77 +198,50 @@ function scriptInputEffect() {
   `;
 }
 function modalCrud(type, url, title, addedOptions = {}) {
-  let options = {};
+  let crudOptions;
   switch (type) {
     case "view":
-      options = optionsView(url, title);
+      crudOptions = {};
       break;
     case "create":
-      options = optionsCreate(url, title);
+      crudOptions = {
+        submitButton: "Simpan",
+        cancelButton: "Batal",
+      };
       break;
     case "update":
-      options = optionsUpdate(url, title);
+      crudOptions = {
+        submitButton: "Ubah",
+      };
       break;
     case "delete":
-      options = optionsDelete(url, title);
-      break;
-    default:
+      crudOptions = {
+        submitButton: "Hapus",
+      };
       break;
   }
+  let options = {
+    src: url,
+    title: title,
+    contentType: LOAD_CONTENT_TYPE.REPLACE,
+    onSubmit: ($modal, response, finalOptions) => {
+      if (response.success) {
+        $modal.close();
+        if ("container" in finalOptions && $(finalOptions.container).length) {
+          ajaxLoadContent({
+            container: addedOptions.container,
+            src: $(addedOptions.container).data("url"),
+            contentType: finalOptions.contentType,
+          });
+        } else {
+          window.location.reload();
+        }
+      }
+    },
+  };
   Object.assign(options, addedOptions);
+  Object.assign(options, crudOptions);
   showModal(options, "#modal-crud");
-}
-function optionsView(url, title) {
-  return {
-    src: url,
-    title: title,
-  };
-}
-function optionsCreate(url, title) {
-  return {
-    src: url,
-    title: title,
-    submitButton: "Simpan",
-    cancelButton: "Batal",
-    onSubmit: ($modal, response) => {
-      if (response.success) {
-        $modal.close();
-        after(TOAST_TIMER, () => {
-          window.location.reload();
-        });
-      }
-    },
-  };
-}
-function optionsUpdate(url, title) {
-  return {
-    src: url,
-    title: title,
-    submitButton: "Ubah",
-    onSubmit: ($modal, response) => {
-      if (response.success) {
-        $modal.close();
-        after(TOAST_TIMER, () => {
-          window.location.reload();
-        });
-      }
-    },
-  };
-}
-function optionsDelete(url, title) {
-  return {
-    src: url,
-    title: title,
-    submitButton: "Hapus",
-    onSubmit: ($modal, response) => {
-      if (response.success) {
-        $modal.close();
-        after(TOAST_TIMER, () => {
-          window.location.reload();
-        });
-      }
-    },
-  };
 }
 $(document).ready(function () {
   lightbox.option({
@@ -288,28 +250,24 @@ $(document).ready(function () {
     wrapAround: true,
   });
 });
-
 function isElementExist(selector) {
   let element = document.querySelector(selector);
   return typeof element !== undefined && element !== null;
 }
-
 function cleanSelector(selector) {
   return selector.replace(/#/g, "");
 }
-
 function initTinymce(selector, content = null, addedOptions = {}) {
   let _cleanSelector = cleanSelector(selector);
   if (tinymce.get(_cleanSelector)) {
     tinymce.get(_cleanSelector).destroy();
   }
-
   let options = {
     selector: selector,
     width: "100%",
     height: 300,
     promotion: false,
-    content_css: '/frontend/assets/css/bootstrap.min.css, style.css',
+    content_css: "/frontend/assets/css/bootstrap.min.css, style.css",
     plugins: "advlist link lists table fullscreen code",
     menubar: "edit view insert format table",
     init_instance_callback(editor) {
@@ -324,10 +282,8 @@ function initTinymce(selector, content = null, addedOptions = {}) {
       });
     },
   };
-
   Object.assign(options, addedOptions);
   tinymce.init(options);
-
   document.addEventListener("focusin", (e) => {
     if (
       e.target.closest(
@@ -336,5 +292,88 @@ function initTinymce(selector, content = null, addedOptions = {}) {
     ) {
       e.stopImmediatePropagation();
     }
+  });
+}
+function encodeHTMLEntities(text) {
+  var textArea = document.createElement("textarea");
+  textArea.innerText = text;
+  return textArea.innerHTML;
+}
+function decodeHTMLEntities(text) {
+  var textArea = document.createElement("textarea");
+  textArea.innerHTML = text;
+  return textArea.value;
+}
+const LOAD_CONTENT_TYPE = {
+  APPEND: "append",
+  REPLACE: "replace",
+};
+function removeLoadingContent(container) {
+  let $el = $(container);
+  while ($el.length > 0) {
+    if ($el.parent().find("#container-loading-content").length > 0) {
+      $el.parent().find("#container-loading-content").remove();
+      break;
+    }
+    $el = $el.parent();
+  }
+}
+function showLoadingContent(container) {
+  $(container)
+    .parent()
+    .closest("div")
+    .append($("#template-loading-content").html());
+}
+function ajaxLoadContent(addedOptions) {
+  return new Promise((resolve, reject) => {
+    let options = {
+      container: "",
+      src: "",
+      contentType: LOAD_CONTENT_TYPE.REPLACE,
+    };
+    Object.assign(options, addedOptions);
+    $(options.container).data("url", options.src);
+    showLoadingContent(options.container);
+    $.ajax({
+      type: "GET",
+      url: options.src,
+      dataType: "json",
+      success: function (response) {
+        let decoded = decodeHTMLEntities(response.html);
+        switch (options.contentType) {
+          case "replace":
+            $(options.container).empty();
+            $(options.container).hide();
+            $(options.container).html(decoded);
+            if ($(options.container).find("img").length > 0) {
+              var loaded = 0;
+              $(options.container)
+                .find("img")
+                .on("load", function () {
+                  loaded++;
+                  if (loaded == $(options.container).find("img").length) {
+                    removeLoadingContent(options.container);
+                    $(options.container).show();
+                    resolve(response);
+                  }
+                });
+            } else {
+              removeLoadingContent(options.container);
+              $(options.container).show();
+              resolve(response);
+            }
+            break;
+          case "append":
+            removeLoadingContent(options.container);
+            $(options.container).append(decoded);
+            resolve(response);
+            break;
+        }
+      },
+      error: function (error) {
+        reject(error);
+      },
+      always: function () {},
+    });
   });
 }

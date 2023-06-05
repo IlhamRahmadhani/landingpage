@@ -14,6 +14,16 @@ class BannersController extends BaseController
         $content = compact('banners');
         return view('backend/banners/index', $content);
     }
+
+    public function loadContent()
+    {
+        $banners = model("Banner")->asArray()->findAll();
+        $content = compact('banners');
+        $html = htmlentities(view('backend/banners/content', $content));
+        $response = ['html' => $html];
+        return $this->response->setJSON($response);
+    }
+
     public function create()
     {
         if ($this->request->is('post')) {

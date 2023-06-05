@@ -49,9 +49,8 @@ $settings = SETTINGS;
     <?= $this->section('js') ?>
     <script>
         $(document).ready(function() {
-            $('[btnSave]').on('click', function(e) {
+            $(document).on('click', '[btnSave]', function(e) {
                 const $form = $('[formSave]');
-                console.log($form);
                 ajax($form.attr('action'), $form.attr('method'), new FormData($form[0]));
             });
         })

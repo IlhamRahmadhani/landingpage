@@ -43,22 +43,7 @@
                                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
-                                                <?php foreach ($jenisProgramDetail[$jenis['program']] as $k => $detail) : ?>
-                                                    <tr>
-                                                        <td class="w-20">
-                                                            <div>
-                                                                <a href="<?= base_url('show-image-landingpage/' . $detail['image_url']) ?>" data-lightbox="<?= $detail['id_pilihan'] ?>"><img class="img-backend" src="<?= base_url('show-image-landingpage/' . $detail['image_url'])  ?>" alt=""></a>
-                                                            </div>
-                                                        </td>
-                                                        <td class=""><?= $detail['keterangan'] ?></td>
-                                                        <td class="w-1"><a class="btn btn-sm btn-outline-info" target="_blank" href="<?= base_url('detail-program-seleksi/' . $detail['id_pilihan']) ?>">Lihat konten</a></td>
-                                                        <td class="w-1">
-                                                            <button btnUpdatePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-outline-warning"><i class="material-icons opacity-10 fs-6">mode_edit</i> Ubah</button>
-                                                            <button btnDeletePs="<?= $detail['id_pilihan'] ?>" class="btn btn-sm btn-outline-danger"><i class="material-icons opacity-10 fs-6">delete</i> Hapus</button>
-                                                        </td>
-                                                    </tr>
-                                                <?php endforeach ?>
+                                            <tbody id="content-jenisprogramdetail-<?= $jenis['id'] ?>">
                                             </tbody>
                                         </table>
                                     </div>
@@ -85,37 +70,52 @@
 <script src="<?= base_url('backend/js/datatables.js') ?>"></script>
 <script>
     $(document).ready(function() {
+
         <?php foreach ($jenisProgram as $k => $jenis) : ?>
-            if ($("#datatable-<?= $jenis['id'] ?>").length > 0) {
-                const dataTable<?= $jenis['id'] ?> = new simpleDatatables.DataTable("#datatable-<?= $jenis['id'] ?>", {
-                    searchable: false,
-                    "bProcessing": true
-                });
-            }
+            ajaxLoadContent({
+                    container: "#content-jenisprogramdetail-<?= $jenis['id'] ?>",
+                    src: '<?= base_url('landingpage/jenis-program-detail/load-content/' . $jenis['id']) ?>',
+                })
+                .then(() => {
+                    if ($("#datatable-<?= $jenis['id'] ?>").length > 0) {
+                        const dataTable<?= $jenis['id'] ?> =
+                            $("#datatable-<?= $jenis['id'] ?>").DataTable();
+                    }
+                })
+
         <?php endforeach ?>
-        $('[btnCreatePs]').on('click', function(e) {
+        $(document).on('click', '[btnCreatePs]', function(e) {
+            let container = "#content-jenisprogramdetail-" + $(this).attr('btnCreatePs');
             modalCrud(
                 'create',
                 '<?= base_url('landingpage/jenis-program-detail/create/') ?>' + '/' + $(this).attr('btnCreatePs'),
                 'Tambah Program Seleksi', {
-                    size: MODAL_SIZE.XL
+                    size: MODAL_SIZE.XL,
+                    container: container,
                 }
             )
         });
-        $('[btnUpdatePs]').on('click', function(e) {
+        $(document).on('click', '[btnUpdatePs]', function(e) {
+            let container = "#content-jenisprogramdetail-" + $(this).attr('jenisprogram');
             modalCrud(
                 'update',
                 '<?= base_url('landingpage/jenis-program-detail/update') ?>' + '/' + $(this).attr('btnUpdatePs'),
                 'Ubah Program Seleksi', {
                     size: MODAL_SIZE.XL,
+                    container: container,
+
                 }
             )
         });
-        $('[btnDeletePs]').on('click', function(e) {
+        $(document).on('click', '[btnDeletePs]', function(e) {
+            let container = "#content-jenisprogramdetail-" + $(this).attr('jenisprogram');
             modalCrud(
                 'delete',
                 '<?= base_url('landingpage/jenis-program-detail/delete') ?>' + '/' + $(this).attr('btnDeletePs'),
-                'Hapus Program Seleksi',
+                'Hapus Program Seleksi', {
+                    size: MODAL_SIZE.SMALL,
+                    container: container,
+                }
             )
         });
     })

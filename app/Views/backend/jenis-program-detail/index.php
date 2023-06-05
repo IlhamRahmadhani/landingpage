@@ -43,21 +43,21 @@
 <?= $this->section('js') ?>
 <script>
     $(document).ready(function() {
-        $('[btnCreate]').on('click', function(e) {
+        $(document).on('click', '[btnCreate]', function(e) {
             modalCrud(
                 'create',
                 '<?= base_url('landingpage/banners/create') ?>',
                 'Tambah Banner',
             )
         });
-        $('[btnUpdate]').on('click', function(e) {
+        $(document).on('click', '[btnUpdate]', function(e) {
             modalCrud(
                 'update',
                 '<?= base_url('landingpage/banners/update') ?>' + '/' + $(this).attr('btnUpdate'),
                 'Ubah Banner',
             )
         });
-        $('[btnDelete]').on('click', function(e) {
+        $(document).on('click', '[btnDelete]', function(e) {
             modalCrud(
                 'delete',
                 '<?= base_url('landingpage/banners/delete') ?>' + '/' + $(this).attr('btnDelete'),

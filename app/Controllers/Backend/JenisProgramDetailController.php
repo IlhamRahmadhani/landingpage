@@ -9,6 +9,15 @@ use App\Repositories\JenisProgramDetailRepository;
 
 class JenisProgramDetailController extends BaseController
 {
+    public function loadContent($idJenisProgram)
+    {
+        $jenisProgramDetail = (new JenisProgramDetailRepository())->get($idJenisProgram);
+        $content = compact('jenisProgramDetail');
+        $html = htmlentities(view('backend/jenis-program-detail/content', $content));
+        $response = ['html' => $html];
+        return $this->response->setJSON($response);
+    }
+
     public function create($idJenisProgram)
     {
         if ($this->request->is('post')) {
