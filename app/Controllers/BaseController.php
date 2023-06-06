@@ -37,7 +37,6 @@ abstract class BaseController extends Controller
      * @var CLIRequest|IncomingRequest
      */
     protected $request;
-
     /**
      * An array of helpers to be loaded automatically upon
      * class instantiation. These helpers will be available
@@ -46,13 +45,11 @@ abstract class BaseController extends Controller
      * @var array
      */
     protected $helpers = ['my_helper'];
-
     /**
      * Be sure to declare properties for any property fetch you initialized.
      * The creation of dynamic property is deprecated in PHP 8.2.
      */
     // protected $session;
-
     /**
      * Constructor.
      */
@@ -60,14 +57,9 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
-
         // Preload any models, libraries, etc, here.
-
         $this->db = \Config\Database::connect();
-
-
         $this->setSettings();
-
         $this->mBanner = new Banner();
         $this->mBiaya = new Biaya();
         $this->mFasilitas = new Fasilitas();
@@ -78,8 +70,9 @@ abstract class BaseController extends Controller
         $this->mSetting = new Setting();
         $this->mTipePerkuliahan = new TipePerkuliahan();
         $this->mUser = new User();
-    }
 
+        $this->setUser();
+    }
     private function setSettings()
     {
         $settings = $this->db->table('settings')->get()->getResultArray();
@@ -87,7 +80,15 @@ abstract class BaseController extends Controller
         foreach ($settings as $k => $v) {
             $content[$v['key']] = $v['value'];
         }
-
         defined('SETTINGS') or define('SETTINGS', $content);
+    }
+    public function setUser()
+    {
+        $session = session();
+        if ($session->get('logged_in')) {
+            $sessionUser = $session->get('user');
+            $user = model('User')->asArray()->find($sessionUser->username);
+            defined('USER') or define('USER', $user);
+        }
     }
 }
