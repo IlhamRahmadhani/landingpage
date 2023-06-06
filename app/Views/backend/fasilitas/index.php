@@ -5,13 +5,15 @@
         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3 mb-4">
             <h5 class="text-white text-capitalize ps-3">Fasilitas</h6>
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col text-end">
-                <button class="btn btn-outline-primary btn-sm mb-0" btnCreate><i class="material-icons opacity-10 fs-5">add</i> Tambah Fasilitas</button>
+                <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnCreate type="button">
+                    <span class="btn-inner--icon"><i class="material-icons fs-5">add</i></span>
+                    <span class="btn-inner--text">Tambah Fasilitas</span>
+                </button>
             </div>
         </div>
-        <div class="row mt-3" id="content-fasilitas">
-
+        <div class="row" id="content-fasilitas">
         </div>
     </div>
 </div>

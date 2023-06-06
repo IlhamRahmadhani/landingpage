@@ -29,7 +29,7 @@
                     </div>
 
                     <?php  ?>
-                    <div class="row mt-3">
+                    <div class="row">
                         <?php if (isset($jenisProgramDetail[$jenis['program']])) : ?>
                             <div class="col-12">
                                 <div class="card">

@@ -7,12 +7,15 @@
         </div>
         <div class="row">
             <div class="col text-end">
-                <button type="button" class="btn btn-outline-primary btn-sm mb-0" btnSave>Simpan Konten</button>
+                <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnSave type="button">
+                    <span class="btn-inner--icon"><i class="material-icons fs-5">save</i></span>
+                    <span class="btn-inner--text">Simpan Konten</span>
+                </button>
             </div>
         </div>
         <div class="mt-3">
             <form method="POST" formSave action="<?= base_url('landingpage/kontak-kami/save') ?>">
-                <textarea name="content" id="content"></textarea>
+                <textarea name="content" id="content" style="visibility: hidden;"></textarea>
             </form>
         </div>
     </div>

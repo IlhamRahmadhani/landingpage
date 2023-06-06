@@ -89,7 +89,7 @@
     </div>
   </template>
   <template id="template-loading-content">
-    <div class="d-flex justify-content-center" id="container-loading-content">
+    <div class="d-flex justify-content-center py-5" id="container-loading-content">
       <div class="spinner-grow text-danger" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>

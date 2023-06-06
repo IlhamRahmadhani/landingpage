@@ -1,24 +1,6 @@
+<?php $this->setVar('showFixedButton', true) ?>
 <?= $this->extend('frontend\layout') ?>
 <?= $this->section('content') ?>
-<style>
-    .carousel-caption-custom {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    }
-
-    .carousel-caption-custom-title {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px;
-        height: 550px;
-        margin: 0;
-        margin-left: 91px;
-    }
-</style>
 <?php if (!empty($banner)) : ?>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">

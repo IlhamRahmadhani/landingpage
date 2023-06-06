@@ -14,8 +14,8 @@ function after(timeout, callback) {
     callback();
   }, timeout);
 }
-function showToast(type, message) {
-  return Swal.fire({
+async function showToast(type, message) {
+  return await Swal.fire({
     icon: type,
     title: message,
     toast: true,
@@ -232,7 +232,7 @@ function modalCrud(type, url, title, addedOptions = {}) {
             container: addedOptions.container,
             src: $(addedOptions.container).data("url"),
             contentType: finalOptions.contentType,
-          });
+          }).then(() => {});
         } else {
           window.location.reload();
         }
@@ -271,6 +271,9 @@ function initTinymce(selector, content = null, addedOptions = {}) {
     content_style: "body {padding: 10px}",
     plugins: "advlist link lists table fullscreen code",
     menubar: "edit view insert format table",
+    toolbar:
+      "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | numlist bullist",
+
     init_instance_callback(editor) {
       if (content !== null) {
         editor.setContent(content);

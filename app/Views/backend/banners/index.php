@@ -15,7 +15,7 @@
         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3 mb-4">
             <h5 class="text-white text-capitalize ps-3">Banners</h5>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col text-end">
                 <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnCreate type="button">
                     <span class="btn-inner--icon"><i class="material-icons fs-5">add</i></span>
@@ -23,7 +23,7 @@
                 </button>
             </div>
         </div>
-        <div class="row mt-5" id="content-banner">
+        <div class="row" id="content-banner">
         </div>
     </div>
 </div>
@@ -40,7 +40,7 @@
             container: container,
             src: '<?= base_url('landingpage/banners/load-content') ?>',
         });
-        
+
         $(document).on('click', '[btnCreate]', function(e) {
             modalCrud(
                 'create',

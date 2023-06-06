@@ -23,12 +23,15 @@
                 <div class="tab-pane fade  <?= ($k == 0) ? 'show active' : '' ?>" id="tab-<?= $value['id'] ?>" role="tabpanel" aria-labelledby="tab-control-<?= $value['id'] ?>">
                     <div class="row mt-3">
                         <div class="col text-end">
-                            <button type="button" class="btn btn-outline-primary btn-sm mb-0" btnSave="<?= $value['id'] ?>">Ubah Konten</button>
+                            <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnSave="<?= $value['id'] ?>" type="button">
+                                <span class="btn-inner--icon"><i class="material-icons fs-5">save</i></span>
+                                <span class="btn-inner--text">Simpan Konten</span>
+                            </button>
                         </div>
                     </div>
                     <div class="mt-3">
                         <form method="POST" formSave="<?= $value['id'] ?>" action="<?= base_url('landingpage/biaya/save/' . $value['id']) ?>">
-                            <textarea id="content-<?= $value['id'] ?>" name="content"></textarea>
+                            <textarea id="content-<?= $value['id'] ?>" name="content" style="visibility: hidden;"></textarea>
                         </form>
                     </div>
                 </div>
@@ -44,7 +47,9 @@
 <script>
     $(document).ready(function() {
         <?php foreach ($biaya as $k => $value) : ?>
-            initTinymce("#content-<?= $value['id'] ?>", `<?= html_entity_decode($value['content']) ?>`, {height: 500})
+            initTinymce("#content-<?= $value['id'] ?>", `<?= html_entity_decode($value['content']) ?>`, {
+                height: 500
+            })
         <?php endforeach ?>
 
         $('[btnSave]').on('click', function(e) {

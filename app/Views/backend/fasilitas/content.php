@@ -15,8 +15,15 @@
             <hr class="dark horizontal my-0">
             <div class="card-footer d-flex flex-column pb-0">
                 <div class="d-flex justify-content-center mt-auto gap-2">
-                    <a href="javascript:;" btnUpdate="<?= $value['id'] ?>" class="btnUpdate btn btn-outline-warning"><i class="material-icons opacity-10">mode_edit</i> Update</a>
-                    <a href="javascript:;" btnDelete="<?= $value['id'] ?>" class="btnDelete btn btn-outline-danger"><i class="material-icons opacity-10">delete</i> Delete</a>
+                    <button class="btn btn-icon btn-3 btn-sm btn-outline-warning" btnUpdate="<?= $value['id'] ?>" type="button">
+                        <span class="btn-inner--icon"><i class="material-icons fs-6">mode_edit</i></span>
+                        <span class="btn-inner--text">Ubah</span>
+                    </button>
+                    <button class="btn btn-icon btn-3 btn-sm btn-outline-danger" btnDelete="<?= $value['id'] ?>" type="button">
+                        <span class="btn-inner--icon"><i class="material-icons fs-6">delete</i></span>
+                        <span class="btn-inner--text">Hapus</span>
+                    </button>
+
                 </div>
             </div>
         </div>

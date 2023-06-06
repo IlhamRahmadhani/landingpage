@@ -11,7 +11,10 @@ $settings = SETTINGS;
         </div>
         <div class="row">
             <div class="col text-end">
-                <button type="button" class="btn btn-outline-primary btn-sm mb-0" btnSave>Simpan Konten</button>
+                <button class="btn btn-icon btn-3 btn-sm btn-outline-primary mb-0" btnSave type="button">
+                    <span class="btn-inner--icon"><i class="material-icons fs-5">save</i></span>
+                    <span class="btn-inner--text">Simpan Konten</span>
+                </button>
             </div>
         </div>
         <div class="row mt-3">
