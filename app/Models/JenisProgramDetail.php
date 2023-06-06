@@ -13,7 +13,7 @@ class JenisProgramDetail extends Model
     protected $returnType    = \App\Entities\JenisProgramDetailEntity::class;
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_jenis_program', 'image_url', 'keterangan', 'content', 'created_at', 'updated_at'];
+    protected $allowedFields    = ['id_jenis_program', 'id_label', 'image_url', 'keterangan', 'content', 'created_at', 'updated_at'];
 
     // Dates
     protected $useTimestamps = true;
@@ -82,7 +82,7 @@ class JenisProgramDetail extends Model
                     'file_size' => [
                         'label' => 'Image', 'rules' => 'required',
                         'errors' => [
-                            'required' => '{field} maksimal berukuran '. sizeImage()['description'] ,
+                            'required' => '{field} maksimal berukuran ' . sizeImage()['description'],
                         ],
                     ],
                 ];

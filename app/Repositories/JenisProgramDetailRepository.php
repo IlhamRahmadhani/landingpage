@@ -15,6 +15,7 @@ class JenisProgramDetailRepository extends BaseRepository
       'jenis_program.id',
       'program',
       'jenis_program_detail.id as id_pilihan',
+      'jenis_program_detail.id_label',
       'jenis_program_detail.image_url',
       'jenis_program_detail.keterangan',
       'content'
@@ -40,6 +41,7 @@ class JenisProgramDetailRepository extends BaseRepository
       'jenis_program_detail.id as id_pilihan',
       'jenis_program_detail.image_url',
       'jenis_program_detail.keterangan',
+      'jenis_program_detail.id_label',
       'content'
     ]);
     $builder->join('jenis_program_detail', 'jenis_program.id = jenis_program_detail.id_jenis_program');
