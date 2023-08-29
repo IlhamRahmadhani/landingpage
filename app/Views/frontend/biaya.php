@@ -1,4 +1,4 @@
-<?= $this->extend('frontend\layout') ?>
+<?= $this->extend('frontend/layout') ?>
 <?= $this->section('content') ?>
 <style>
     .table {

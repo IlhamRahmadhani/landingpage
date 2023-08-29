@@ -1,5 +1,5 @@
 <?php $this->setVar('disableSticky', true); ?>
-<?= $this->extend('frontend\layout') ?>
+<?= $this->extend('frontend/layout') ?>
 <?= $this->section('content') ?>
 <div class="react-wrapper-inner">
     <div class="react-breadcrumbs">

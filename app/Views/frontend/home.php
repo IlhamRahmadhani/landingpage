@@ -1,5 +1,5 @@
 <?php $this->setVar('showFixedButton', true) ?>
-<?= $this->extend('frontend\layout') ?>
+<?= $this->extend('frontend/layout') ?>
 <?= $this->section('content') ?>
 <?php if (!empty($banner)) : ?>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
