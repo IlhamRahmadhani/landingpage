@@ -1,4 +1,4 @@
-<?= $this->extend('backend\layout') ?>
+<?= $this->extend('backend/layout') ?>
 <?= $this->section('css') ?>
 <style>
     .card-img-top {

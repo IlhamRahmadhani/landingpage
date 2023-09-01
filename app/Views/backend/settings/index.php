@@ -2,7 +2,7 @@
 $settings = SETTINGS;
 
 ?>
-<?= $this->extend('backend\layout') ?>
+<?= $this->extend('backend/layout') ?>
 <?= $this->section('content') ?>
 <div class="row">
     <div class="col-12">

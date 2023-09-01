@@ -1,4 +1,4 @@
-<?= $this->extend('backend\layout') ?>
+<?= $this->extend('backend/layout') ?>
 <?= $this->section('content') ?>
 <div class="container-fluid py-4">
     <div class="row mb-5">
