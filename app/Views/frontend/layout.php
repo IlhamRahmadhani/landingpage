@@ -35,7 +35,7 @@ $settings = SETTINGS;
     <?php if (isset($showFixedButton)) : ?>
         <div class="fixed-button">
             <div class="sub-buttons text-center">
-                <span style="font-size: 14px; font-weight: bold;">Pendaftaran Mahasiswa Baru Tahun Akademik 2023/2024</span><br>
+                <span style="font-size: 14px; font-weight: bold;">Pendaftaran Mahasiswa Baru Tahun Akademik 2024/2025</span><br>
                 <br> <a href="https://smart.bakrie.ac.id/registrasi/registrasiForm"><button style="background-color: #85171a;color: #fff; margin-bottom: 10px;" class="text-center">S1 Reguler</button></a>
                 <a href="https://smart.bakrie.ac.id/registerkk"> <button class="text-center" style="background-color: #a1a1a1;color: #fff;margin-bottom: 10px;"> Kelas Karyawan</button>
                     <a href="https://smart.bakrie.ac.id/pendaftaran"> <button class="text-center" style="background-color: #f28f2f;color: #fff;margin-bottom: 10px;"> Magister</button></a>
