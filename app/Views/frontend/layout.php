@@ -10,8 +10,8 @@ $settings = SETTINGS;
     <meta name="description" content="">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="<?= base_url('frontend/assets/images/fav.png') ?>">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('frontend/assets/images/fav.png') ?>">
+    <link rel="apple-touch-icon" href="<?= base_url('frontend/assets/images/favicon-removebg-preview.png') ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('frontend/assets/images/favicon-removebg-preview.png') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('frontend/assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('frontend/assets/css/menus.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('frontend/assets/css/animate.css') ?>">
@@ -45,7 +45,7 @@ $settings = SETTINGS;
     <?php endif ?>
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
-        <div class="react__loader_logo"><img src="<?= base_url('frontend/assets/images/preload.png') ?>" alt="Preload"></div>
+        <div class="react__loader_logo"><img src="<?= base_url('frontend/assets/images/favicon-removebg-preview.png') ?>" alt="Preload"></div>
     </div>
     <header id="react-header" class="react-header">
         <div class="topbar-area style1">
