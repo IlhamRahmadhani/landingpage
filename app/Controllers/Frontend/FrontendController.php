@@ -28,8 +28,15 @@ class FrontendController extends BaseController
         return view('frontend/detail_program_seleksi', $content);
     }
 
-    public function fasilitas()
+    public function prodi()
     {
+        $prodi = model('Prodi')->asArray()->findAll();
+        $content = compact('prodi');
+        return view('frontend/prodi', $content);
+    }
+
+    public function fasilitas()
+{
         $fasilitas = model('Fasilitas')->asArray()->findAll();
         $content = compact('fasilitas');
         return view('frontend/fasilitas', $content);

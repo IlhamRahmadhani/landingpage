@@ -34,6 +34,7 @@ $routes->post('/landingpage/login', 'Backend\AuthController::login');
 $routes->post('/landingpage/logout', 'Backend\AuthController::logout');
 $routes->get('/show-image-landingpage/(:any)', 'FileController::showImage/$1');
 $routes->get('/', 'Frontend\FrontendController::home');
+$routes->get('/prodi', 'Frontend\FrontendController::prodi');
 $routes->get('/fasilitas', 'Frontend\FrontendController::fasilitas');
 $routes->get('/biaya', 'Frontend\FrontendController::biaya');
 $routes->get('/kontak-kami', 'Frontend\FrontendController::kontakKami');

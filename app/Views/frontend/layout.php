@@ -82,8 +82,8 @@ $settings = SETTINGS;
                 </div>
             </div>
         </div>
-        <div class="menu-part">
-            <div class="container">
+        <div class="menu-part" style="z-index: 1; position: relative;">
+            <div class="container" style="padding-right: 0; padding-left: 0;">
                 <div class="react-main-menu">
                     <nav>
                         <div class="menu-toggle">
@@ -100,6 +100,7 @@ $settings = SETTINGS;
                             <ul id="backmenu" class="react-menus home react-sub-shadow">
                                 <li> <a href="<?= base_url('') ?>">Home</a>
                                 </li>
+                                <li> <a href="<?= base_url('prodi') ?>">Prodi</a>
                                 </li>
                                 <li> <a href="<?= base_url('fasilitas') ?>">Fasilitas</a>
                                 </li>
@@ -107,7 +108,7 @@ $settings = SETTINGS;
                                 </li>
                                 <li> <a href="<?= base_url('kontak-kami') ?>">Kontak Kami</a></li>
                                 <li>
-                                    <div class="dropdown">
+                                    <div class="dropdown" style="padding-left: 20px; padding-bottom: 20px">
                                         <a href="https://smart.bakrie.ac.id/site"> <button class="btn btn-primary " style="background-color: #85171a; color: white; padding: 15px;margin-top:19px;border:none;" target="_blank">Login
                                             </button></a>
                                     </div>

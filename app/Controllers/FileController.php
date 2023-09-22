@@ -4,10 +4,16 @@ namespace App\Controllers;
 
 class FileController extends BaseController
 {
-    public function showImage($name)
+    public function showImage($name, $tipe = null)
     {
+        
+
         try {
-            $image = file_get_contents(WRITEPATH . 'uploads/' . $name);
+            if ($tipe == 'prodi') {
+                $image = file_get_contents(base_url() . 'frontend/assets/images/prodi/' . $name);
+            } else {
+                $image = file_get_contents(WRITEPATH . 'uploads/' . $name);
+            }
         } catch (\Throwable $th) {
             $image = file_get_contents(FCPATH . 'global/' . 'no-image.png');
         }
