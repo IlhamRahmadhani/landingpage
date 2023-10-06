@@ -27,7 +27,7 @@ class FrontendController extends BaseController
         $view = \Config\Services::renderer();
 
         $html = $view->setVar('html', $detail['content'])->render('frontend/iframe');
-        $content = compact('html');
+        $content = compact('html', 'detail');
         return view('frontend/detail_program_seleksi', $content);
     }
 
