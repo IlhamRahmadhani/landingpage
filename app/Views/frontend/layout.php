@@ -10,7 +10,7 @@ $settings = SETTINGS;
     <meta name="description" content="">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="<?= base_url('frontend/assets/images/favicon-removebg-preview.png') ?>">
+    <link rel="apple-touch-icon" href="<?= base_url('/frontend/assets/images/favicon-removebg-preview.png') ?>">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('frontend/assets/images/favicon-removebg-preview.png') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('frontend/assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('frontend/assets/css/menus.css') ?>">
@@ -100,7 +100,7 @@ $settings = SETTINGS;
                             <ul id="backmenu" class="react-menus home react-sub-shadow">
                                 <li> <a href="<?= base_url('') ?>">Home</a>
                                 </li>
-                                <li> <a href="<?= base_url('prodi') ?>">Prodi</a>
+                                <li> <a href="<?= base_url('prodi') ?>">Program Studi</a>
                                 </li>
                                 <li> <a href="<?= base_url('fasilitas') ?>">Fasilitas</a>
                                 </li>

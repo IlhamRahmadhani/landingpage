@@ -10,12 +10,14 @@ if ($detail['id_label'] != 1) {
         <div class="row">
             <div class="col-lg-8">
                 <div class="blog-single-inner">
-                    <?= html_entity_decode($detail['content']) ?>
+                    <?= $html ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 <?= $this->endSection() ?>

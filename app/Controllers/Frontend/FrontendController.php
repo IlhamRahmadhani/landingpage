@@ -24,7 +24,10 @@ class FrontendController extends BaseController
         if (!$detail) {
             throw new PageNotFoundException();
         }
-        $content = compact('detail');
+        $view = \Config\Services::renderer();
+
+        $html = $view->setVar('html', $detail['content'])->render('frontend/iframe');
+        $content = compact('html');
         return view('frontend/detail_program_seleksi', $content);
     }
 
@@ -36,7 +39,7 @@ class FrontendController extends BaseController
     }
 
     public function fasilitas()
-{
+    {
         $fasilitas = model('Fasilitas')->asArray()->findAll();
         $content = compact('fasilitas');
         return view('frontend/fasilitas', $content);
@@ -56,4 +59,5 @@ class FrontendController extends BaseController
         $content = compact('kontakKami');
         return view('frontend/kontak_kami', $content);
     }
+    
 }
