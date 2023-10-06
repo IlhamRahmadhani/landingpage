@@ -158,13 +158,16 @@ $settings = SETTINGS;
         }
         <?php if (isset($showFixedButton)) : ?>
             var viewportHeight = window.innerHeight;
-            var scrollPercentage = 70;
+            var scrollPercentage = 0;
             var triggerScroll = (viewportHeight / 100) * scrollPercentage;
+            
             window.addEventListener("scroll", function() {
-                if (window.pageYOffset >= triggerScroll) {
-                    document.querySelector(".fixed-button").classList.add("scrolled");
-                } else {
+                if (window.pageYOffset == 0 || ((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) {
                     document.querySelector(".fixed-button").classList.remove("scrolled");
+                } 
+                
+                else {
+                    document.querySelector(".fixed-button").classList.add("scrolled");
                 }
             });
         <?php endif ?>

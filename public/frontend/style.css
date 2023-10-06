@@ -11657,6 +11657,8 @@ img.hover-shadow {
 
 .fixed-button {
   z-index: 1;
+  opacity: 1;
+  transition: opacity 600ms, visibility 600ms;
 }
 
 
@@ -11684,4 +11686,11 @@ img.hover-shadow {
 
 .bottom-content.prodi {
   margin-bottom: 36px;
+}
+
+
+.fixed-button.scrolled {
+  visibility: hidden;
+ opacity: 0;
+
 }
