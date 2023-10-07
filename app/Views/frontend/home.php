@@ -8,7 +8,7 @@
                 <?php
                 $active = ($k == 0) ? 'active' : '';
                 ?>
-                <div class="carousel-item <?= $active ?>" data-bs-interval="17000">
+                <div class="carousel-item <?= $active ?>" data-bs-interval="10000">
                     <div class="carousel-title"></div>
                     <img src="<?= base_url('show-image-landingpage/' . $value['image_url']) ?>" class="d-block w-100" alt="...">
                     <div class="carousel-caption-custom">
