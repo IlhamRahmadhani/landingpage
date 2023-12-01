@@ -2,7 +2,42 @@
 <?= $this->extend('frontend/layout') ?>
 <?= $this->section('content') ?>
 <?php if (!empty($banner)) : ?>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+                <?php foreach ($banner as $k => $value) : ?>
+                    <?php
+                    $active = ($k == 0) ? 'active' : '';
+                    ?>
+                    <div class="glide__slide" style="margin-bottom: -1px;">
+                        <div class="carousel-title"></div>
+                        <img src="<?= base_url('show-image-landingpage/' . $value['image_url']) ?>" class="d-block w-100" alt="...">
+                        <div class="carousel-caption-custom">
+                            <div class="carousel-caption-custom-title">
+                                <?= html_entity_decode($value['judul']) ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach ?>
+            </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" viewBox="0 0 10.605 15.555">
+                    <polygon points="10.605 12.727 5.656 7.776 10.605 2.828 7.777 0 0 7.776 7.777 15.555 10.605 12.727" fill="#ffffff" />
+                </svg>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" viewBox="0 0 10.605 15.555">
+                    <polygon points="2.828 15.555 10.605 7.776 2.828 0 0 2.828 4.949 7.776 0 12.727 2.828 15.555" fill="#ffffff" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <?php foreach ($banner as $k => $value) : ?>
                 <?php
@@ -30,7 +65,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         <?php endif ?>
-    </div>
+    </div> -->
+
+
 <?php endif ?>
 <div class="w3-bar w3-black tengah">
     <?php foreach ($jenisProgram as $k => $jenis) : ?>
