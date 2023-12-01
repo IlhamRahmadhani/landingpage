@@ -29,6 +29,8 @@ $settings = SETTINGS;
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -137,6 +139,7 @@ $settings = SETTINGS;
     <script src="<?= base_url('frontend/assets/js/menus.js') ?>"></script>
     <script src="<?= base_url('frontend/assets/js/plugins.js') ?>"></script>
     <script src="<?= base_url('frontend/script.js') ?>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         const disableSticky = ('<?= isset($disableSticky) ? 'true' : 'false' ?>' == 'true');
     </script>
@@ -160,17 +163,22 @@ $settings = SETTINGS;
             var viewportHeight = window.innerHeight;
             var scrollPercentage = 0;
             var triggerScroll = (viewportHeight / 100) * scrollPercentage;
-            
             window.addEventListener("scroll", function() {
                 if (window.pageYOffset == 0 || ((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) {
                     document.querySelector(".fixed-button").classList.remove("scrolled");
-                } 
-                
-                else {
+                } else {
                     document.querySelector(".fixed-button").classList.add("scrolled");
                 }
             });
         <?php endif ?>
+
+        new Glide('.glide', {
+            type: 'carousel',
+            gap: 0,
+            autoplay: 10000,
+            hoverpause: false,
+            rewind: true,
+        }).mount()
     </script>
 </body>
 
