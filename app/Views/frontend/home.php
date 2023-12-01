@@ -3,6 +3,16 @@
 <?= $this->section('content') ?>
 <?php if (!empty($banner)) : ?>
 
+    <style>
+        .glide {
+            max-width: 100%;
+        }
+
+        .glide__slide--active {
+            z-index: 1;
+        }
+    </style>
+
     <div class="glide">
         <div class="glide__track" data-glide-el="track">
             <div class="glide__slides">

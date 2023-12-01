@@ -172,13 +172,13 @@ $settings = SETTINGS;
             });
         <?php endif ?>
 
-        new Glide('.glide', {
-            type: 'carousel',
-            gap: 0,
-            autoplay: 10000,
-            hoverpause: false,
-            rewind: true,
-        }).mount()
+        setTimeout(() => {
+            new Glide('.glide', {
+                type: 'carousel',
+                gap: 0,
+                autoplay: 10000,
+            }).mount();
+        }, 1);
     </script>
 </body>
 
