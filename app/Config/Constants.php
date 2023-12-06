@@ -93,6 +93,6 @@ define('EVENT_PRIORITY_NORMAL', 100);
  */
 define('EVENT_PRIORITY_HIGH', 10);
 
-$subfolder = '/public';
+$subfolder = '/pmb/public';
 $base = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $subfolder;
 defined('BASE') || define('BASE', $base);
