@@ -15,7 +15,7 @@
                     </h5>
                 </div>
                 <div id="collapse<?= $value['id'] ?>" class="<?= ($k != 0) ? 'collapse' : 'accordion-collapse show' ?>" aria-labelledby="heading<?= $value['id'] ?>" data-parent="#accordionExample">
-                    <div class="card-body"><?= html_entity_decode(($value['content'])) ?></div>
+                    <div class="card-body" style="overflow: auto;"><?= html_entity_decode(($value['content'])) ?></div>
                 </div>
             </div>
         <?php endforeach ?>
